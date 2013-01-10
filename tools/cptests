@@ -1,0 +1,16 @@
+#!/bin/bash
+app=test
+#app=${app%/}
+rm -fr /tmp/${app}
+#cp -r ${app} /tmp/
+mkdir /tmp/${app}
+mkdir /tmp/${app}/node_modules
+cp -r ../caf_core /tmp/${app}/node_modules/
+cp -r ../caf_lib/* /tmp/${app}/node_modules/
+cp -r ../caf_extra/* /tmp/${app}/node_modules/
+#rm -fr /tmp/${app}/node_modules/*/test
+rm -f /tmp/${app}.tar
+pushd /tmp/${app}
+
+tar cf ../${app}.tar *
+popd

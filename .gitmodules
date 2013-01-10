@@ -1,0 +1,3 @@
+[submodule "caf_core"]
+	path = caf_core
+	url = https://github.com/cafjs/caf_core.git
