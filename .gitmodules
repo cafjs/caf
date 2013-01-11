@@ -7,3 +7,6 @@
 [submodule "caf_lib/caf_prop"]
 	path = caf_lib/caf_prop
 	url = https://github.com/cafjs/caf_prop.git
+[submodule "caf_lib/caf_profiler"]
+	path = caf_lib/caf_profiler
+	url = https://github.com/cafjs/caf_profiler.git
