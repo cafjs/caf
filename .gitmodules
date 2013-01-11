@@ -1,3 +1,6 @@
 [submodule "caf_core"]
 	path = caf_core
 	url = https://github.com/cafjs/caf_core.git
+[submodule "caf_lib/caf_session"]
+	path = caf_lib/caf_session
+	url = https://github.com/cafjs/caf_session.git
