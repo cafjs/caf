@@ -13,3 +13,6 @@
 [submodule "caf_lib/caf_cli"]
 	path = caf_lib/caf_cli
 	url = https://github.com/cafjs/caf_cli.git
+[submodule "caf_lib/caf_security"]
+	path = caf_lib/caf_security
+	url = https://github.com/cafjs/caf_security.git
