@@ -16,3 +16,6 @@
 [submodule "caf_lib/caf_security"]
 	path = caf_lib/caf_security
 	url = https://github.com/cafjs/caf_security.git
+[submodule "caf_lib/caf_sharing"]
+	path = caf_lib/caf_sharing
+	url = https://github.com/cafjs/caf_sharing.git
