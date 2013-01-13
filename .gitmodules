@@ -22,3 +22,6 @@
 [submodule "caf_extra/caf_deploy"]
 	path = caf_extra/caf_deploy
 	url = https://github.com/cafjs/caf_deploy.git
+[submodule "caf_extra/caf_imap"]
+	path = caf_extra/caf_imap
+	url = https://github.com/cafjs/caf_imap.git
