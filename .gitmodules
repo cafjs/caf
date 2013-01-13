@@ -28,3 +28,6 @@
 [submodule "caf_extra/caf_pull"]
 	path = caf_extra/caf_pull
 	url = https://github.com/cafjs/caf_pull.git
+[submodule "caf_extra/caf_pubsub"]
+	path = caf_extra/caf_pubsub
+	url = https://github.com/cafjs/caf_pubsub.git
