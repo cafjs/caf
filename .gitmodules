@@ -19,3 +19,6 @@
 [submodule "caf_lib/caf_sharing"]
 	path = caf_lib/caf_sharing
 	url = https://github.com/cafjs/caf_sharing.git
+[submodule "caf_extra/caf_deploy"]
+	path = caf_extra/caf_deploy
+	url = https://github.com/cafjs/caf_deploy.git
