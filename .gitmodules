@@ -31,3 +31,6 @@
 [submodule "caf_extra/caf_pubsub"]
 	path = caf_extra/caf_pubsub
 	url = https://github.com/cafjs/caf_pubsub.git
+[submodule "caf_extra/caf_sim"]
+	path = caf_extra/caf_sim
+	url = https://github.com/cafjs/caf_sim.git
