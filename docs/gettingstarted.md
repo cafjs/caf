@@ -28,7 +28,7 @@ For our examples we put together a bare-bones GUI using Enyo. If the GUI looks u
 
 ## Before we start
 
-Source code for the examples is in github <http://>
+Source code for the examples is in github https://github.com/cafjs/caf_examples.git
 
 We follow a standard node.js package layout, and we add a `/public` dir that contains the client app. Also, in the `/lib` dir
 there is always a file called `ca_methods.js` that implements the CA. 
@@ -42,7 +42,7 @@ The behavior of the Enyo-based GUI is defined by `App.js` in `/public/source`.
 
 All the tutorial examples are already deployed and you can use the launcher to see what they do. We call them tutorial1a, tutorial1b, tutorial1c...No, we don't have an tutorial2, but it's good to plan for the future.
 
-But the fun part is when you start tinkering with them. To see the results, you'll need to use Turtles, our deployment app. Simply create a tar file with the app and its dependencies (the script ./cpexample `<appname>` should do that for you by creating a tar file  in /tmp/...). Then, leave that tar file where Turtles can see it (a public url hosted by a service like HP Object Storage, a public folder in Dropbox,  or your website outside the firewall - just making sure that this website can give you ETag header info), give it a name, and Turtles will do the rest. If you toggle the setting to Auto, Turtles tracks changes to the contents of the url and asks you to upgrade when needed. 
+But the fun part is when you start tinkering with them. To see the results, you'll need to use Turtles, our deployment app. Simply create a tar file with the app and its dependencies (the script ./cpexample `<appname>` should do that for you by creating a compressed tar file  in /tmp/...). Then, leave that tar file where Turtles can see it (a public url hosted by a service like HP Object Storage, a public folder in Dropbox,  or your website outside the firewall - just making sure that this website can give you ETag header info), give it a name, and Turtles will do the rest. If you toggle the setting to Auto, Turtles tracks changes to the contents of the url and asks you to upgrade when needed. 
 
 We don't have debugging support in Turtles right now, and if you get stuck you may want to run everything locally first, [Running CAF Locally](standalone.html) where you can use standard node.js debugging tools like [node-inspector](https://github.com/dannycoates/node-inspector). 
 
@@ -54,7 +54,7 @@ We don't have debugging support in Turtles right now, and if you get stuck you m
 * modifying internal CA state
 
 
-Let's look at file lib/ca_methods.js. This is the main file that defines the behavior of the CA and starts the framework. 
+Let's look at file `lib/ca_methods.js`. This is the main file that defines the behavior of the CA and starts the framework. 
 
 It is just a node.js file that loads the core module:
 

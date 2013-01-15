@@ -22,8 +22,9 @@ To debug CAF install `node-inspector` ( see https://github.com/dannycoates/node-
 
 Clone `caf` from github (in https://github.com/cafjs/caf). Initialize submodules:
 
-    git submodule init
-    git submodule update
+    git clone  https://github.com/cafjs/caf.git
+    cd caf
+    git submodule update --init --recursive
     
 
 ## Starting a  Cloud Foundry http router simulator
@@ -109,7 +110,7 @@ It also helps to create a client session with Redis and lookup the internal stat
     mget data:antonio_m1
     monitor
     
-But in most cases it is best to use two debuggers: one to set breakpoints in the client (using the browser's debugger) and the other one attached to  CA code (i.e., using node-inspector). This allows you to examine the state of the system as you follow  requests  from client to CA and back. To do that, first start CAF server in debug mode:
+But in most cases it is best to use two debuggers: one to set breakpoints in the client (using the browser's debugger) and the other one attached to  CA code (i.e., using `node-inspector`). This allows you to examine the state of the system as you follow  requests  from client to CA and back. To do that, first start CAF server in debug mode:
 
     
     {

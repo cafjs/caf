@@ -49,7 +49,7 @@ find . -name "*-delete-12345" | xargs rm -fr
 popd #${app}
 rm -fr package
 mv ${app} package
-tar --exclude=test -c -h -z -f ${app}.tgz package
+tar --exclude=test  --exclude=samples --exclude=tools --exclude=.git -c -h -z -f ${app}.tgz package
 mv package ${app}
 tar -xzf  ${app}.tgz 
 
