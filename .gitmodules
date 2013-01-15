@@ -1,39 +1,39 @@
 [submodule "caf_core"]
 	path = caf_core
-	url = https://github.com/cafjs/caf_core.git
+	url = ../caf_core.git
 [submodule "caf_lib/caf_session"]
 	path = caf_lib/caf_session
-	url = https://github.com/cafjs/caf_session.git
+	url = ../caf_session.git
 [submodule "caf_lib/caf_prop"]
 	path = caf_lib/caf_prop
-	url = https://github.com/cafjs/caf_prop.git
+	url = ../caf_prop.git
 [submodule "caf_lib/caf_profiler"]
 	path = caf_lib/caf_profiler
-	url = https://github.com/cafjs/caf_profiler.git
+	url = ../caf_profiler.git
 [submodule "caf_lib/caf_cli"]
 	path = caf_lib/caf_cli
-	url = https://github.com/cafjs/caf_cli.git
+	url =../caf_cli.git
 [submodule "caf_lib/caf_security"]
 	path = caf_lib/caf_security
-	url = https://github.com/cafjs/caf_security.git
+	url =../caf_security.git
 [submodule "caf_lib/caf_sharing"]
 	path = caf_lib/caf_sharing
-	url = https://github.com/cafjs/caf_sharing.git
+	url =../caf_sharing.git
 [submodule "caf_extra/caf_deploy"]
 	path = caf_extra/caf_deploy
-	url = https://github.com/cafjs/caf_deploy.git
+	url =../caf_deploy.git
 [submodule "caf_extra/caf_imap"]
 	path = caf_extra/caf_imap
-	url = https://github.com/cafjs/caf_imap.git
+	url =../caf_imap.git
 [submodule "caf_extra/caf_pull"]
 	path = caf_extra/caf_pull
-	url = https://github.com/cafjs/caf_pull.git
+	url =../caf_pull.git
 [submodule "caf_extra/caf_pubsub"]
 	path = caf_extra/caf_pubsub
-	url = https://github.com/cafjs/caf_pubsub.git
+	url =../caf_pubsub.git
 [submodule "caf_extra/caf_sim"]
 	path = caf_extra/caf_sim
-	url = https://github.com/cafjs/caf_sim.git
+	url =../caf_sim.git
 [submodule "caf_examples"]
 	path = caf_examples
-	url = https://github.com/cafjs/caf_examples.git
+	url =../caf_examples.git
