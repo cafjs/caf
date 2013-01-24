@@ -29,12 +29,15 @@ export deps=`${DIR}/findDeps.js`;
 for dep in $deps ; do
     npm link $dep ;
 done ;
+rm -f npm-shrinkwrap.json
 npm install
 npm shrinkwrap
 if [ $? -ne 0 ] 
 then 
     echo "Cannot shrinkwrap" >&2; exit 1;
 fi
+
+cp npm-shrinkwrap.json ${DIR}/../caf_examples/${app}
 
 pushd "../"
 cp -rL  ${app}-withlinks ${app}

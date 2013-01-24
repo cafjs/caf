@@ -5,9 +5,10 @@ pushd ${DIR}
 
 export apps='website helloworld hellosharing mail moody pull mutant justonce turtles tutorial1a tutorial1b tutorial1c tutorial1d tutorial1e'
 
-pushd ../caf_core/public/enyo/
-./tools/deploy.sh
-popd
+# Do this manually when caf_enyo changes
+#pushd ../caf_core/public/enyo/
+#./tools/deploy.sh
+#popd
 
 pushd ../caf_examples/turtles/lib
 CFPASS=`cat ${CAFDIR}/cfpassword`
