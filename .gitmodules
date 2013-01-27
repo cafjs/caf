@@ -39,4 +39,4 @@
 	url =../caf_examples.git
 [submodule "caf_extra/caf_iot"]
 	path = caf_extra/caf_iot
-	url = git@github.com:cafjs/caf_iot.git
+	url =../caf_iot.git
