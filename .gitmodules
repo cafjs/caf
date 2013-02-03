@@ -40,3 +40,6 @@
 [submodule "caf_extra/caf_iot"]
 	path = caf_extra/caf_iot
 	url =../caf_iot.git
+[submodule "caf_extra/caf_iot_cli"]
+	path = caf_extra/caf_iot_cli
+	url = ../caf_iot_cli
