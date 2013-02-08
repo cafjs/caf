@@ -43,3 +43,6 @@
 [submodule "caf_extra/caf_iot_cli"]
 	path = caf_extra/caf_iot_cli
 	url = ../caf_iot_cli
+[submodule "caf_examples_RPi/helloiot_cli"]
+	path = caf_examples_RPi/helloiot_cli
+	url = ../caf_examples_helloiot_cli
