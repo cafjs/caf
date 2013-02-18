@@ -2,7 +2,8 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 echo $DIR
 pushd ${DIR}
-pushd ../caf_examples/
+EXAMPLES_DIR=${EXAMPLES_DIR:-caf_examples}
+pushd ../${EXAMPLES_DIR}/
 
 app=$1
 app=${app%/}
@@ -37,7 +38,7 @@ then
     echo "Cannot shrinkwrap" >&2; exit 1;
 fi
 
-cp npm-shrinkwrap.json ${DIR}/../caf_examples/${app}
+cp npm-shrinkwrap.json ${DIR}/../${EXAMPLES_DIR}/${app}
 
 pushd "../"
 cp -rL  ${app}-withlinks ${app}
@@ -60,5 +61,5 @@ popd #"../"
 
 popd #/tmp/${app}-withlinks
 
-popd #../caf_examples/
+popd #../${EXAMPLES_DIR}/
 popd #${DIR}
