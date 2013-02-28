@@ -18,11 +18,13 @@ popd
 
 for app in $apps; do ./cpexample.sh "$app" ; done
 
-
-for app in $apps; do ./deletevmc.sh "$app" ; done
-
-for app in $apps; do ./pushvmc.sh "$app" ; done
-
-./mapvmc.sh website http://www.cafjs.com
-
+if test -z $STACKATO ; then
+    for app in $apps; do ./deletevmc.sh "$app" ; done    
+    for app in $apps; do ./pushvmc.sh "$app" ; done
+    ./mapvmc.sh website http://www.cafjs.com
+else 
+    for app in $apps; do ./deletestackato.sh "$app" ; done    
+    for app in $apps; do ./pushstackato.sh "$app" ; done
+    ./mapstackato.sh website http://www.cafjs-stackato.dnsalias.com
+fi
 popd
