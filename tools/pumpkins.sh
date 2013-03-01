@@ -25,6 +25,6 @@ if test -z $STACKATO ; then
 else 
     for app in $apps; do ./deletestackato.sh "$app" ; done    
     for app in $apps; do ./pushstackato.sh "$app" ; done
-    ./mapstackato.sh website http://www.cafjs-stackato.dnsalias.com
+    ./mapstackato.sh website http://www.cafjs.com
 fi
 popd
