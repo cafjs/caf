@@ -18,6 +18,10 @@ popd
 
 for app in $apps; do ./cpexample.sh "$app" ; done
 
+pushd ../caf_examples/turtles/lib
+sed -i s/${CFPASS}/cfpassword/g framework.json
+popd
+
 if test -z $STACKATO ; then
     for app in $apps; do ./deletevmc.sh "$app" ; done    
     for app in $apps; do ./pushvmc.sh "$app" ; done
