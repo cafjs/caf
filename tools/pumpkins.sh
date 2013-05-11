@@ -5,7 +5,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 CAFDIR=$HOME/.caf
 pushd ${DIR}
 
-export apps='website helloworld hellosharing mail moody pull mutant justonce turtles tutorial1a tutorial1b tutorial1c tutorial1d tutorial1e'
+export apps='website helloworld hellosharing mail moody pull mutant justonce turtles rps tutorial1a tutorial1b tutorial1c tutorial1d tutorial1e'
 
 # Do this manually when caf_enyo changes
 #pushd ../caf_core/public/enyo/
