@@ -52,3 +52,6 @@
 [submodule "caf_lib/caf_jsonrpc"]
 	path = caf_lib/caf_jsonrpc
 	url = ../caf_jsonrpc
+[submodule "caf_examples_drone/caf_hellodrone_cli"]
+	path = caf_examples_drone/caf_hellodrone_cli
+	url = ../caf_hellodrone_cli
