@@ -55,3 +55,9 @@
 [submodule "caf_examples_drone/caf_hellodrone_cli"]
 	path = caf_examples_drone/caf_hellodrone_cli
 	url = ../caf_hellodrone_cli
+[submodule "caf_examples_drone/caf_ardrone_setup"]
+	path = caf_examples_drone/caf_ardrone_setup
+	url = ../caf_ardrone_setup
+[submodule "caf_extra/caf_ardrone"]
+	path = caf_extra/caf_ardrone
+	url = ../caf_ardrone
