@@ -1,9 +1,22 @@
 #!/bin/bash
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-echo $DIR
+
+#define CAF_DEVELOPER to use locally installed modules
+CAF_DIR=${CAF_DIR:-$HOME/.caf}
+CAF_CONFIG=${CAF_CONFIG:-'caf.conf'}
+
+CAF_SUFFIX=${CAF_SUFFIX:-''}
+
+# relative to DIR
+CAF_EXAMPLES_DIR=${CAF_EXAMPLES_DIR:-../caf_examples}
+CAF_ACCOUNTS=${CAF_ACCOUNTS:-'http://accounts.cafjs.com/app.html'}
+
+# Read configuration variable file if it is present to override above
+CAF_FILE=${CAF_DIR}/${CAF_CONFIG}
+[ -r ${CAF_FILE} ] && . ${CAF_FILE}
+
 pushd ${DIR}
-EXAMPLES_DIR=${EXAMPLES_DIR:-caf_examples}
-pushd ../${EXAMPLES_DIR}/
+pushd ${CAF_EXAMPLES_DIR}
 
 app=$1
 app=${app%/}
@@ -11,13 +24,14 @@ app=${app%/}
 
 pushd ${app}
 
+#make sure that package.json includes modules imported in framework.json 
 ${DIR}/checkDeps.js;
 
 if [ $? -ne 0 ] 
 then 
     echo "Invalid deps in package.json" >&2; exit 1;
 fi
-popd
+popd #{app}
 
 rm -fr /tmp/${app}-withlinks
 rm -fr /tmp/${app}
@@ -26,19 +40,28 @@ cp -r ${app}/* /tmp/${app}-withlinks
 rm -f /tmp/${app}.tar
 pushd /tmp/${app}-withlinks
 
-export deps=`${DIR}/findDeps.js`;
-for dep in $deps ; do
-    npm link $dep ;
-done ;
-rm -f npm-shrinkwrap.json
-npm install
-npm shrinkwrap
-if [ $? -ne 0 ] 
-then 
-    echo "Cannot shrinkwrap" >&2; exit 1;
+if [ -z $CAF_DEVELOPER ]
+then
+    npm install --link
+else
+#explicitly link to local modules first (developer mode) 
+    export deps=`${DIR}/findDeps.js`;
+    for dep in $deps; do npm link $dep ; done
+    rm -f npm-shrinkwrap.json
+    npm install --link
+    npm shrinkwrap
+    if [ $? -ne 0 ] 
+    then 
+        echo "Cannot shrinkwrap" >&2; exit 1;
+    fi
+    cp npm-shrinkwrap.json ${DIR}/${CAF_EXAMPLES_DIR}/${app}
 fi
 
-cp npm-shrinkwrap.json ${DIR}/../${EXAMPLES_DIR}/${app}
+#patch accounts service
+pushd lib
+sed -i s,http://accounts.cafjs.com/app.html,${CAF_ACCOUNTS},g framework.json
+popd #lib
+
 
 pushd "../"
 cp -rL  ${app}-withlinks ${app}
@@ -54,12 +77,13 @@ popd #${app}
 rm -fr package
 mv ${app} package
 tar --exclude=test  --exclude=samples --exclude=tools --exclude=.git -c -h -z -f ${app}.tgz package
-mv package ${app}
+rm -fr ${app}${CAF_SUFFIX}
+mv package ${app}${CAF_SUFFIX}
 tar -xzf  ${app}.tgz 
 
 popd #"../"
 
 popd #/tmp/${app}-withlinks
 
-popd #../${EXAMPLES_DIR}/
+popd #${CAF_EXAMPLES_DIR}/
 popd #${DIR}
