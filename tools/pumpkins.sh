@@ -41,7 +41,7 @@ sed -i s/foo@bar.com/${CAF_USER}/g framework.json
 sed -i s,http://api.cafjs.com,${CAF_TARGET},g framework.json
 if [ $CAF_TARGET != $CAF_MAP ] 
 then
-    sed -i s,null,${CAF_MAP},g framework.json
+    sed -i s,null,\"${CAF_MAP}\",g framework.json
 fi
 popd
 
@@ -54,7 +54,7 @@ sed -i s/${CAF_USER}/foo@bar.com/g framework.json
 sed -i s,${CAF_TARGET},http://api.cafjs.com,g framework.json
 if [ ${CAF_TARGET} != ${CAF_MAP} ] 
 then
-    sed -i s,${CAF_MAP},null,g framework.json
+    sed -i s,\"${CAF_MAP}\",null,g framework.json
 fi
 popd
 
