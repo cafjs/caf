@@ -61,3 +61,6 @@
 [submodule "caf_extra/caf_ardrone"]
 	path = caf_extra/caf_ardrone
 	url = ../caf_ardrone
+[submodule "caf_lib/caf_conduit"]
+	path = caf_lib/caf_conduit
+	url = ../caf_conduit
