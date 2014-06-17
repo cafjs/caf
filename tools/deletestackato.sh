@@ -5,4 +5,6 @@ cd /tmp/$app
 spawn stackato delete $app
 expect "Provisioned service"
 send "y\r"
+expect "Exclusive route"
+send "y\r"
 expect eof 

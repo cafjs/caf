@@ -15,7 +15,7 @@ CAF_TARGET=${CAF_TARGET:-'http://api.cafjs.com'}
 CAF_SUFFIX=${CAF_SUFFIX:-''}
 
 CAF_APPS=${CAF_APPS:-'website helloworld hellosharing hellodrone mail moody pull mutant justonce turtles rps tutorial1a tutorial1b tutorial1c tutorial1d tutorial1e'}
-CAF_WEBSITE=${CAF_WEBSITE:-'http://www.cafjs.com'}  
+CAF_WEBSITE=${CAF_WEBSITE:-'www.cafjs.com'}  
 
 
 # Read configuration variable file if it is present to override above
