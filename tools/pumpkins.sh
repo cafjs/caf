@@ -11,7 +11,7 @@ CAF_CONFIG=${CAF_CONFIG:-'caf.conf'}
 
 CAF_USER=${CAF_USER:-'foo@bar.com'}
 CAF_PASS=${CAF_PASS:-'pleasechange'}
-CAF_TARGET=${CAF_TARGET:-'http://api.cafjs.com'}
+CAF_TARGET=${CAF_TARGET:-'https://api.cafjs.com'}
 CAF_SUFFIX=${CAF_SUFFIX:-''}
 
 CAF_APPS=${CAF_APPS:-'website helloworld hellosharing hellodrone mail moody pull mutant justonce turtles rps tutorial1a tutorial1b tutorial1c tutorial1d tutorial1e'}
@@ -38,7 +38,7 @@ pushd ${DIR}
 pushd ../caf_examples/turtles/lib
 sed -i s/cfpassword/${CAF_PASS}/g framework.json
 sed -i s/foo@bar.com/${CAF_USER}/g framework.json
-sed -i s,http://api.cafjs.com,${CAF_TARGET},g framework.json
+sed -i s,https://api.cafjs.com,${CAF_TARGET},g framework.json
 if [ $CAF_TARGET != $CAF_MAP ] 
 then
     sed -i s,null,\"${CAF_MAP}\",g framework.json
@@ -51,7 +51,7 @@ for app in $CAF_APPS; do ./cpexample.sh "$app" ; done
 pushd ../caf_examples/turtles/lib
 sed -i s/${CAF_PASS}/cfpassword/g framework.json
 sed -i s/${CAF_USER}/foo@bar.com/g framework.json
-sed -i s,${CAF_TARGET},http://api.cafjs.com,g framework.json
+sed -i s,${CAF_TARGET},https://api.cafjs.com,g framework.json
 if [ ${CAF_TARGET} != ${CAF_MAP} ] 
 then
     sed -i s,\"${CAF_MAP}\",null,g framework.json

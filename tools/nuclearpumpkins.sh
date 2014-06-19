@@ -9,7 +9,7 @@ CAF_CONFIG=${CAF_CONFIG:-'caf.conf'}
 # define STACKATO to use stackato cli
 #STACKATO=true
 
-CAF_TARGET=${CAF_TARGET:-'http://api.cafjs.com'}
+CAF_TARGET=${CAF_TARGET:-'https://api.cafjs.com'}
 CAF_SUFFIX=${CAF_SUFFIX:-''}
 
 CAF_PRIV_APPS=${CAF_PRIV_APPS:-'accounts'}

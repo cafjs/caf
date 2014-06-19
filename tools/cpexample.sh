@@ -9,7 +9,7 @@ CAF_SUFFIX=${CAF_SUFFIX:-''}
 
 # relative to DIR
 CAF_EXAMPLES_DIR=${CAF_EXAMPLES_DIR:-../caf_examples}
-CAF_ACCOUNTS=${CAF_ACCOUNTS:-'http://accounts.cafjs.com/app.html'}
+CAF_ACCOUNTS=${CAF_ACCOUNTS:-'https://accounts.cafjs.com/app.html'}
 
 # Read configuration variable file if it is present to override above
 CAF_FILE=${CAF_DIR}/${CAF_CONFIG}
@@ -59,7 +59,7 @@ fi
 
 #patch accounts service
 pushd lib
-sed -i s,http://accounts.cafjs.com/app.html,${CAF_ACCOUNTS},g framework.json
+sed -i s,https://accounts.cafjs.com/app.html,${CAF_ACCOUNTS},g framework.json
 popd #lib
 
 
