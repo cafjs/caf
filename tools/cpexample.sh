@@ -81,6 +81,10 @@ rm -fr ${app}${CAF_SUFFIX}
 mv package ${app}${CAF_SUFFIX}
 tar -xzf  ${app}.tgz 
 
+pushd  package
+zip -r ../${app}.zip .
+popd #"../"
+
 popd #"../"
 
 popd #/tmp/${app}-withlinks
