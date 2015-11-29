@@ -1,0 +1,18 @@
+{
+    "name": "caf",
+    "description": "Top level CAF.js project",
+    "version": "0.2.0",
+    "author": "Antonio Lain <antlai@cafjs.com>",
+    "homepage": "http://www.cafjs.com",
+    "devDependencies": {
+        "nodeunit" : ">=0.9",
+    },
+    "scripts": {
+        "test": "node ./node_modules/.bin/nodeunit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cafjs/caf.git"
+    },
+    "engines": { "node": ">= 0.10.29" }
+}

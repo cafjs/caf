@@ -1,16 +1,15 @@
 # CAF (Cloud Assistant Framework)
 
-Co-design permanent, active, stateful, reliable cloud proxies with your web app.
+Co-design permanent, active, stateful, reliable cloud proxies with your web app and IoT devices.
 
 See http://www.cafjs.com 
 
-## CAF Top
-
-This repository provides a consistent snapshot of all the other CAF sub-projects, guaranteeing that they will be compatible with each other. 
+## CAF top level project
+ 
+This repository provides a consistent snapshot of all the other CAF sub-projects. They are tested together to create an implicit CAF release that is enforced with `npm shrinkwrap`.  
 
 Most users of CAF will just clone this repository and update submodules recursively, i.e.:
 
-      git submodule update --init --recursive
+      git submodule update --init 
       
-Note that you do need `--recursive` because some repositories such as `caf_core` have their own submodules (e.g., `caf_enyo`).
 
