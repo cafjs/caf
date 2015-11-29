@@ -1,0 +1,81 @@
+[submodule "apps/caf_gadget"]
+	path = apps/caf_gadget
+	url = ../caf_gadget.git
+[submodule "apps/caf_accounts"]
+	path = apps/caf_accounts
+	url = ../caf_accounts.git
+[submodule "apps/caf_helloworld"]
+	path = apps/caf_helloworld
+	url = ../caf_helloworld.git
+[submodule "apps/caf_hellosharing"]
+	path = apps/caf_hellosharing
+	url = ../caf_hellosharing.git
+[submodule "apps/caf_helloiot"]
+	path = apps/caf_helloiot
+	url = ../caf_helloiot.git
+[submodule "apps/caf_turtles"]
+	path = apps/caf_turtles
+	url = ../caf_turtles.git
+[submodule "apps/caf_launcher"]
+	path = apps/caf_launcher
+	url = ../caf_launcher.git
+[submodule "extra/srp-shim"]
+	path = extra/srp-shim
+	url = ../srp-shim
+[submodule "extra/caf_srp"]
+	path = extra/caf_srp
+	url = ../caf_srp.git
+[submodule "extra/caf_react"]
+	path = extra/caf_react
+	url = ../caf_react.git
+[submodule "extra/caf_deploy"]
+	path = extra/caf_deploy
+	url = ../caf_deploy.git
+[submodule "extra/caf_amqp"]
+	path = extra/caf_amqp
+	url = ../caf_amqp.git
+[submodule "extra/caf_gadget_daemon"]
+	path = extra/caf_gadget_daemon
+	url = ../caf_gadget_daemon.git
+[submodule "extra/caf_rpi"]
+	path = extra/caf_rpi
+	url = ../caf_rpi.git
+[submodule "extra/caf_netproxy"]
+	path = extra/caf_netproxy
+	url = ../caf_netproxy.git
+[submodule "extra/caf_registryproxy"]
+	path = extra/caf_registryproxy
+	url = ../caf_registryproxy.git
+[submodule "main/caf_components"]
+	path = main/caf_components
+	url = ../caf_components.git
+[submodule "main/caf_transport"]
+	path = main/caf_transport
+	url = ../caf_transport.git
+[submodule "main/caf_redis"]
+	path = main/caf_redis
+	url = ../caf_redis.git
+[submodule "main/caf_ca"]
+	path = main/caf_ca
+	url = ../caf_ca.git
+[submodule "main/caf_session"]
+	path = main/caf_session
+	url = ../caf_session.git
+[submodule "main/caf_cli"]
+	path = main/caf_cli
+	url = ../caf_cli.git
+[submodule "main/caf_security"]
+	path = main/caf_security
+	url = ../caf_security.git
+[submodule "main/caf_sharing"]
+	path = main/caf_sharing
+	url = ../caf_sharing.git
+[submodule "main/caf_platform"]
+	path = main/caf_platform
+	url = ../caf_platform.git
+[submodule "main/caf_core"]
+	path = main/caf_core
+	url = ../caf_core.git
+[submodule "main/caf_iot"]
+	path = main/caf_iot
+	url = ../caf_iot.git
