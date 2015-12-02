@@ -2,7 +2,7 @@
 
 var extractModule = function(obj, res) {
     if ((typeof obj === 'object') && (typeof obj.module === 'string')) {
-        var array = obj.module.split("/"); 
+        var array = obj.module.split("#"); 
         if (array.length === 2) {
             res[array[0]] = true;
         }
@@ -10,7 +10,7 @@ var extractModule = function(obj, res) {
 };
 
 var extractDeps = function(obj, res) {
-    if (typeof obj === 'object') {
+    if (obj && (typeof obj === 'object')) {
         extractModule(obj, res);
         for (var x in obj) {
             extractDeps(obj[x], res);
@@ -33,8 +33,16 @@ try {
     var fram =  require(process.cwd() + '/lib/framework.json');
     extractDeps(fram, newDeps);  
 } catch(x) {
-    console.log("got " + x);
+//    console.log("got " + x);
     console.log("no framework.json");
+}
+
+try {
+    var framPlus =  require(process.cwd() + '/lib/framework++.json');
+    extractDeps(framPlus, newDeps);  
+} catch(x) {
+//    console.log("got " + x);
+    console.log("no framework++.json");
 }
 
 try {
@@ -42,6 +50,13 @@ try {
     extractDeps(ca, newDeps);  
 } catch(x) {
     console.log("no ca.json");
+}
+
+try {
+    var caPlus =  require(process.cwd() + '/lib/ca++.json');
+    extractDeps(caPlus, newDeps);  
+} catch(x) {
+    console.log("no ca++.json");
 }
 
 for (var x in newDeps) {

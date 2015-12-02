@@ -5,10 +5,11 @@
     "author": "Antonio Lain <antlai@cafjs.com>",
     "homepage": "http://www.cafjs.com",
     "devDependencies": {
-        "nodeunit" : ">=0.9",
+        "nodeunit" : ">=0.9"
     },
     "scripts": {
-        "test": "node ./node_modules/.bin/nodeunit"
+	"installAll" : "./tools/setupLinks.sh",
+        "test": "node ./node_modules/.bin/nodeunit main/*/test/ extra/*/test/"
     },
     "repository": {
         "type": "git",
