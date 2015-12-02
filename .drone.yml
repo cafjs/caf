@@ -2,6 +2,8 @@ image: drone/node:0.10
 script:
   - npm run installAll
   - npm test
+services:
+  - redis
 notify:
   email:
     recipients:
