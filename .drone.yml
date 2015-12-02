@@ -4,6 +4,7 @@ script:
   - npm test
 services:
   - redis
+  - rabbitmq
 notify:
   email:
     recipients:
