@@ -9,7 +9,7 @@
     },
     "scripts": {
 	"installAll" : "./tools/setupLinks.sh",
-        "test": "node ./node_modules/.bin/nodeunit main/*/test/ extra/*/test/"
+        "test": "node ./node_modules/.bin/nodeunit main/*/test/"
     },
     "repository": {
         "type": "git",
