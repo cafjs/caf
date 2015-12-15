@@ -79,3 +79,6 @@
 [submodule "main/caf_iot"]
 	path = main/caf_iot
 	url = ../caf_iot.git
+[submodule "tools/caf_dcinabox"]
+	path = tools/caf_dcinabox
+	url = ../caf_dcinabox
