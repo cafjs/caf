@@ -1,7 +1,7 @@
 #!/bin/bash
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 pushd ${DIR}
-export topdirs="../main ../extra ../apps ../tools"
+export topdirs="../main ../extra ../tools"
 
 for topdir in $topdirs; do 
     pushd "$topdir"
@@ -11,8 +11,8 @@ for topdir in $topdirs; do
 	then
             pushd "$lib";
             rm -fr node_modules/*
-	    npm install  --link
-	    npm link
+	    npm install  --production --link
+	    npm link --production
             popd ;
 	fi
     done ;
