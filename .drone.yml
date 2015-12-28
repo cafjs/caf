@@ -1,6 +1,7 @@
 image: drone/node:0.10 
 script:
   - npm run installAll
+  - npm install .
   - npm test
 services:
   - redis
