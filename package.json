@@ -8,7 +8,7 @@
         "nodeunit" : ">=0.9"
     },
     "scripts": {
-	"installAll" : "./tools/setupLinks.sh",
+	"installAll" : "./tools/setupLinksTest.sh",
         "test": "node ./node_modules/.bin/nodeunit main/*/test/"
     },
     "repository": {
