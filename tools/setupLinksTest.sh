@@ -11,7 +11,9 @@ for topdir in $topdirs; do
 	then
             pushd "$lib";
             rm -fr node_modules/*
-	    npm install --link
+            npm link `${DIR}/findDepsCAF.js`
+            npm link `${DIR}/findDevDepsCAF.js`
+	    npm install
 	    npm link
             popd ;
 	fi

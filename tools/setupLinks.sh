@@ -11,7 +11,8 @@ for topdir in $topdirs; do
 	then
             pushd "$lib";
             rm -fr node_modules/*
-	    npm install  --production --link
+            npm link --production `${DIR}/findDepsCAF.js`
+	    npm install  --production
 	    npm link --production
             popd ;
 	fi
