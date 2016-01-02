@@ -9,7 +9,7 @@ See http://www.cafjs.com
 [![Build Status](http://ci.cafjs.com/github.com/cafjs/caf/status.svg?branch=master)](http://ci.cafjs.com/github.com/cafjs/caf)
 
 
-This repository provides a consistent snapshot of all the other CAF sub-projects. They are tested together to create an implicit CAF release. CAF tools helps apps to stick to a particular release by using `npm link` and `npm shrinkwrap` under the hood.
+This repository provides a consistent snapshot of all the other CAF sub-projects. They are tested together to create an implicit CAF release. CAF tools help apps to stick to a particular release by using `npm link` and `npm shrinkwrap` under the hood.
 
 Clone this repository and update submodules recursively, i.e.:
 
