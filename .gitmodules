@@ -82,3 +82,6 @@
 [submodule "tools/caf_dcinabox"]
 	path = tools/caf_dcinabox
 	url = ../caf_dcinabox
+[submodule "extra/caf_rpi_gpio"]
+	path = extra/caf_rpi_gpio
+	url = ../caf_rpi_gpio.git

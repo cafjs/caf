@@ -1,11 +1,12 @@
 {
     "name": "caf",
     "description": "Top level CAF.js project",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "author": "Antonio Lain <antlai@cafjs.com>",
     "homepage": "http://www.cafjs.com",
     "devDependencies": {
-        "nodeunit" : ">=0.9"
+        "nodeunit" : ">=0.9",
+        "minimist" : "^1.2.0"
     },
     "scripts": {
 	"installAll" : "./tools/setupLinksTest.sh",
