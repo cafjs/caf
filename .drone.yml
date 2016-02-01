@@ -1,6 +1,7 @@
 build:
   image: node:0.10 
   commands:
+    - git submodule update --init
     - npm run installAll
     - npm install .
     - npm test
