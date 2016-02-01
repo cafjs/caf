@@ -1,12 +1,12 @@
-image: drone/node:0.10 
-script:
-  - npm run installAll
-  - npm install .
-  - npm test
-services:
-  - redis
-  - rabbitmq
-notify:
-  email:
-    recipients:
-      - ci.cafjs@gmail.com
+build:
+  image: node:0.10 
+  commands:
+    - npm run installAll
+    - npm install .
+    - npm test
+    
+compose:
+  queue:
+    image: rabbitmq:3
+  database:
+    image: redis:2.8

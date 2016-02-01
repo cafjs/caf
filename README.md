@@ -5,9 +5,7 @@ Co-design permanent, active, stateful, reliable cloud proxies with your web app 
 See http://www.cafjs.com 
 
 ## CAF top level project
-
-[![Build Status](http://ci.cafjs.com/github.com/cafjs/caf/status.svg?branch=master)](http://ci.cafjs.com/github.com/cafjs/caf)
-
+[![Build Status](http://ci.cafjs.com/api/badges/cafjs/caf/status.svg)](http://ci.cafjs.com/cafjs/caf)
 
 This repository provides a consistent snapshot of all the other CAF sub-projects. They are tested together to create an implicit CAF release. CAF tools help apps to stick to a particular release by using `npm link` and `npm shrinkwrap` under the hood.
 
