@@ -1,7 +1,7 @@
 {
     "name": "caf",
     "description": "Top level CAF.js project",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "author": "Antonio Lain <antlai@cafjs.com>",
     "homepage": "http://www.cafjs.com",
     "devDependencies": {
