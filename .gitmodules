@@ -85,3 +85,6 @@
 [submodule "extra/caf_rpi_gpio"]
 	path = extra/caf_rpi_gpio
 	url = ../caf_rpi_gpio.git
+[submodule "main/caf_pubsub"]
+	path = main/caf_pubsub
+	url = ../caf_pubsub.git
