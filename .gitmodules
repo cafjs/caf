@@ -88,3 +88,6 @@
 [submodule "main/caf_pubsub"]
 	path = main/caf_pubsub
 	url = ../caf_pubsub.git
+[submodule "apps/caf_hellolambda"]
+	path = apps/caf_hellolambda
+	url = ../caf_hellolambda
