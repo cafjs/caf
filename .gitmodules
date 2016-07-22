@@ -91,3 +91,6 @@
 [submodule "apps/caf_hellolambda"]
 	path = apps/caf_hellolambda
 	url = ../caf_hellolambda
+[submodule "apps/caf_hellodiffie"]
+	path = apps/caf_hellodiffie
+	url = ../caf_hellodiffie.git
