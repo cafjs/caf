@@ -94,3 +94,9 @@
 [submodule "apps/caf_hellodiffie"]
 	path = apps/caf_hellodiffie
 	url = ../caf_hellodiffie.git
+[submodule "extra/caf_rpi_nap"]
+	path = extra/caf_rpi_nap
+	url = ../caf_rpi_nap.git
+[submodule "apps/caf_hellosleepy"]
+	path = apps/caf_hellosleepy
+	url = ../caf_hellosleepy
