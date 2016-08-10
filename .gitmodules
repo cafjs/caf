@@ -100,3 +100,9 @@
 [submodule "apps/caf_hellosleepy"]
 	path = apps/caf_hellosleepy
 	url = ../caf_hellosleepy
+[submodule "extra/caf_rpi_zx"]
+	path = extra/caf_rpi_zx
+	url = ../caf_rpi_zx.git
+[submodule "apps/caf_hellodynamic"]
+	path = apps/caf_hellodynamic
+	url = ../caf_hellodynamic
