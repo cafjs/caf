@@ -106,3 +106,6 @@
 [submodule "apps/caf_hellodynamic"]
 	path = apps/caf_hellodynamic
 	url = ../caf_hellodynamic
+[submodule "main/caf_profiler"]
+	path = main/caf_profiler
+	url = ../caf_profiler.git
