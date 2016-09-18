@@ -109,3 +109,6 @@
 [submodule "main/caf_profiler"]
 	path = main/caf_profiler
 	url = ../caf_profiler.git
+[submodule "apps/caf_hellofail"]
+	path = apps/caf_hellofail
+	url = ../caf_hellofail.git
