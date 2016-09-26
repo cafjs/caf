@@ -112,3 +112,6 @@
 [submodule "apps/caf_hellofail"]
 	path = apps/caf_hellofail
 	url = ../caf_hellofail.git
+[submodule "extra/caf_sms"]
+	path = extra/caf_sms
+	url = ../caf_sms.git
