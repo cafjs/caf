@@ -115,3 +115,6 @@
 [submodule "extra/caf_sms"]
 	path = extra/caf_sms
 	url = ../caf_sms.git
+[submodule "extra/caf_forward"]
+	path = extra/caf_forward
+	url = ../caf_forward.git
