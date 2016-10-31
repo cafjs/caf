@@ -118,3 +118,6 @@
 [submodule "extra/caf_forward"]
 	path = extra/caf_forward
 	url = ../caf_forward.git
+[submodule "apps/caf_hellopresent"]
+	path = apps/caf_hellopresent
+	url = ../caf_hellopresent
