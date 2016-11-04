@@ -121,3 +121,6 @@
 [submodule "apps/caf_hellopresent"]
 	path = apps/caf_hellopresent
 	url = ../caf_hellopresent
+[submodule "docs/caf_presentations"]
+	path = docs/caf_presentations
+	url = ../caf_presentations.git
