@@ -124,3 +124,6 @@
 [submodule "docs/caf_presentations"]
 	path = docs/caf_presentations
 	url = ../caf_presentations.git
+[submodule "docs/cafjs.github.io"]
+	path = docs/cafjs.github.io
+	url = ../cafjs.github.io.git
