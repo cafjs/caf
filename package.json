@@ -1,16 +1,17 @@
 {
     "name": "caf",
     "description": "Top level CAF.js project",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "author": "Antonio Lain <antlai@cafjs.com>",
     "homepage": "http://www.cafjs.com",
     "devDependencies": {
         "nodeunit" : ">=0.9",
-        "minimist" : "^1.2.0"
+        "jsdoc": "^3.4.2"
     },
     "scripts": {
 	"installAll" : "./tools/setupLinksTest.sh",
-        "test": "node ./node_modules/.bin/nodeunit main/*/test/"
+        "test": "node ./node_modules/.bin/nodeunit main/*/test/",
+        "docs" : "rm -fr docs/api; mkdir -p docs/api; ./node_modules/.bin/jsdoc --pedantic -c ./conf.json -d docs/api  --readme ./README.md --package ./package.json docs/*.js"
     },
     "repository": {
         "type": "git",

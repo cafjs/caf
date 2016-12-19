@@ -1,0 +1,9 @@
+{
+    "templates": {
+        "default": {
+        }
+    },
+    "plugins": [
+        "plugins/markdown"
+    ]
+}
