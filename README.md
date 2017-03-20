@@ -11,6 +11,8 @@ This repository provides a consistent snapshot of all the other CAF sub-projects
 
 ### Getting Started
 
+Note that the tools only support `npm v2`. Use node.js `v4.X.X` or, in more recent versions of node.js, downgrade npm. Also, all our development is done with Linux.
+
 Clone this repository (`git clone https://github.com/cafjs/caf.git`) within your `$HOME` directory, and update submodules:
 
       cd caf; git submodule update --init
