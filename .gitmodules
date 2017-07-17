@@ -133,3 +133,6 @@
 [submodule "apps/caf_quota"]
 	path = apps/caf_quota
 	url = ../caf_quota
+[submodule "extra/caf_iot_http"]
+	path = extra/caf_iot_http
+	url = ../caf_iot_http.git
