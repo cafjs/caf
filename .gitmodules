@@ -136,3 +136,9 @@
 [submodule "extra/caf_iot_http"]
 	path = extra/caf_iot_http
 	url = ../caf_iot_http.git
+[submodule "extra/caf_iot_gatt"]
+	path = extra/caf_iot_gatt
+	url = ../caf_iot_gatt.git
+[submodule "apps/caf_helloiotbrowser"]
+	path = apps/caf_helloiotbrowser
+	url = ../caf_helloiotbrowser.git
