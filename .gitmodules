@@ -142,3 +142,6 @@
 [submodule "apps/caf_helloiotbrowser"]
 	path = apps/caf_helloiotbrowser
 	url = ../caf_helloiotbrowser.git
+[submodule "apps/caf_bodysnatcher"]
+	path = apps/caf_bodysnatcher
+	url = ../caf_bodysnatcher.git
