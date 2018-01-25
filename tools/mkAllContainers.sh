@@ -2,9 +2,10 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 pushd ${DIR}
 topdirs="../apps"
-mkOne=${DIR}/caf_dcinabox/bin/mkContainer.js
+mkOne=${DIR}/caf_dcinabox/bin/caf.js
 REGISTRY_PREFIX=${REGISTRY_PREFIX:-'registry.cafjs.com:32000'}
 REGISTRY_USER=${REGISTRY_USER:-'root'}
+EXTRA="caf_gadget_daemon caf_netproxy caf_registryproxy"
 
 for topdir in $topdirs; do
     pushd "$topdir"
@@ -16,10 +17,25 @@ for topdir in $topdirs; do
             suffix="/"
             name=${lib#$prefix}
             name=${name%$suffix}
-            ${mkOne} --src "$lib" --container "${REGISTRY_PREFIX}/${REGISTRY_USER}-${name}" &
+            ${mkOne} mkImage "$lib" "${REGISTRY_PREFIX}/${REGISTRY_USER}-${name}" &
 	fi
     done ;
     wait
     popd
 done
+
+pushd "../extra"
+for lib in $EXTRA; do
+    if [ -d "$lib" ]
+    then
+        prefix="caf_"
+        suffix="/"
+        name=${lib#$prefix}
+        name=${name%$suffix}
+        ${mkOne} mkImage "$lib" "${REGISTRY_PREFIX}/${REGISTRY_USER}-${name}" &
+    fi
+done ;
+wait
+popd #extra
+
 popd

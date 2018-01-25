@@ -1,11 +1,11 @@
 build:
-  image: node:4.3 
+  image: node:8
   commands:
     - git submodule update --init
-    - npm run installAll
-    - npm install .
-    - npm test
-    
+    - yarn run installAll
+    - yarn test
+    - yarn run eslint
+
 compose:
   queue:
     image: rabbitmq:3

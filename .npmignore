@@ -2,3 +2,5 @@ test
 .npmignore
 .gitmodules
 docs/api
+playground
+app

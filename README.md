@@ -7,27 +7,19 @@ See http://www.cafjs.com
 ## CAF
 [![Build Status](http://ci.cafjs.com/api/badges/cafjs/caf/status.svg)](http://ci.cafjs.com/cafjs/caf)
 
-This repository provides a consistent snapshot of all the other CAF sub-projects. They are tested together to create a CAF release. CAF tools help apps to stick to modules of a particular release by using `npm link` and `npm shrinkwrap` under the hood.
+This repository is managed as a monorepo using Yarn workspaces. It contains a consistent snapshot of all the other CAF sub-projects, included as git submodules.
 
 ### Getting Started
 
-Note that the tools only support `npm v2`. Use node.js `v4.X.X` or, in more recent versions of node.js, downgrade npm. Also, all our development is done with Linux.
+Install node 8.X.X and yarn >1.3.2. Our development is done with Linux.
 
-Clone this repository (`git clone https://github.com/cafjs/caf.git`) within your `$HOME` directory, and update submodules:
+Clone this repository (`git clone https://github.com/cafjs/caf.git`) and update submodules:
 
       cd caf; git submodule update --init
 
-Satisfy node dependencies and create symbolic links to CAF libs with:
+Install all the dependencies (it takes about 30s in my laptop):
 
-    ./tools/setupLinks.sh
-
-The assumption is that these links are created within your `$HOME` directory. If you use `nvm` (https://github.com/creationix/nvm) to manage `node.js` (highly recommended!), they will be under `$HOME/.nvm`.
-
-If that is not the case, you need to override the default options in `cafjs run`, see {@link external:caf_dcinabox} (https://cafjs.github.io/api/caf_dcinabox).
-
-Install the tools:
-
-    cd tools/caf_dcinabox; npm install -g .
+    yarn run installAll
 
 and now let's build and run locally a simple app:
 
@@ -48,3 +40,5 @@ To stop it, a single `Control-C` will initiate a gentle container shutdown but, 
 In both cases we should be able to restart without losing the CA's state. This state is checkpointed in a Redis container that mounts a host volume (log file in `/tmp/redis/appendonly.aof`, host port 6380). To start from scratch, delete the log file in the host.
 
 Using the `cafjs` command we can also simulate devices, build container images to publish in our cloud service, i.e., https://root-launcher.cafjs.com, or reset after a hang. See {@link external:caf_dcinabox} (https://cafjs.github.io/api/caf_dcinabox) for details.
+
+Write your app in a subdirectory of `caf/playground`, and yarn workspaces will also manage your app dependencies.
