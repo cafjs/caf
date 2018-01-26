@@ -21,6 +21,10 @@ Install all the dependencies (it takes about 30s in my laptop):
 
     yarn run installAll
 
+add to your path the `cafjs` tools:
+
+    export PATH=<your_install_directory>/caf/bin:$PATH
+
 and now let's build and run locally a simple app:
 
     cd apps/caf_helloworld; cafjs build; cafjs run helloworld
