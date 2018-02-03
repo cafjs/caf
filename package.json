@@ -2,7 +2,7 @@
     "name": "caf",
     "description": "Top level CAF.js project",
     "private": true,
-    "version": "0.3.0",
+    "version": "0.3.1",
     "author": "Antonio Lain <antlai@cafjs.com>",
     "homepage": "http://www.cafjs.com",
     "devDependencies": {
