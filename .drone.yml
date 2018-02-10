@@ -5,6 +5,7 @@ build:
     - yarn run installAll
     - yarn test
     - yarn run eslint
+    - yarn run checktype
 
 compose:
   queue:
