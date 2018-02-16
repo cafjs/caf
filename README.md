@@ -11,7 +11,7 @@ This repository is managed as a monorepo using Yarn workspaces. It contains a co
 
 ### Getting Started
 
-Install node 8.X.X and yarn >=1.3.2. Our development is done with Linux.
+Install node 8.X.X and yarn >=1.3.2. Our development is mostly on Linux.
 
 Clone this repository (`git clone https://github.com/cafjs/caf.git`) and update submodules:
 
@@ -21,7 +21,7 @@ Install all the dependencies (it takes about 30s in my laptop):
 
     yarn run installAll
 
-add to your path the `cafjs` tools:
+add to your path the `cafjs` tool path:
 
     export PATH=<your_install_directory>/caf/bin:$PATH
 
