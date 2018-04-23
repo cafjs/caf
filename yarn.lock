@@ -2569,26 +2569,9 @@ esprima@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-1.1.1.tgz#5b6f1547f4d102e670e140c509be6771d6aeb549"
 
-espruino@0.0.36:
-  version "0.0.36"
-  resolved "https://registry.yarnpkg.com/espruino/-/espruino-0.0.36.tgz#7c5b47e3575e49b6c7ec9e829d8020aafb0cbdd5"
-  dependencies:
-    acorn ">=0.6.0"
-    es6-shim ""
-    escodegen ""
-    esmangle ""
-    esprima ""
-    request "^2.74.0"
-    tar.gz "^1.0.5"
-    utf8 "^2.1.2"
-  optionalDependencies:
-    noble "^1.7.0"
-    serialport "^4.0.4"
-    winnus ""
-
-espruino@^0.0.34:
-  version "0.0.34"
-  resolved "https://registry.yarnpkg.com/espruino/-/espruino-0.0.34.tgz#0971f246f2ec47f2afd3b858e7e57ba333299206"
+espruino@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/espruino/-/espruino-0.1.6.tgz#0720bc50f3d9e908ab86dc14c0584135858d6b5f"
   dependencies:
     acorn ">=0.6.0"
     es6-shim ""
@@ -4732,9 +4715,19 @@ nexpect@^0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/nexpect/-/nexpect-0.5.0.tgz#f185cf4d3acb5ce38ad7740f5dfa4004559946e0"
 
-noble@^1.7.0, noble@sandeepmistry/noble#8055bc4:
+noble@^1.7.0:
   version "1.8.1"
   resolved "https://codeload.github.com/sandeepmistry/noble/tar.gz/8055bc4530c3cd19b13826660ef6e924d7dfd17a"
+  dependencies:
+    debug "~2.2.0"
+  optionalDependencies:
+    bluetooth-hci-socket "^0.5.1"
+    bplist-parser "0.0.6"
+    xpc-connection "~0.1.4"
+
+noble@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/noble/-/noble-1.9.1.tgz#2ccd31ead8ec92dbff6f19a42e420b258bcdcdd0"
   dependencies:
     debug "~2.2.0"
   optionalDependencies:
