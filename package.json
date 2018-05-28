@@ -2,7 +2,7 @@
     "name": "caf",
     "description": "Top level CAF.js project",
     "private": true,
-    "version": "0.3.3",
+    "version": "0.3.4",
     "author": "Antonio Lain <antlai@cafjs.com>",
     "homepage": "http://www.cafjs.com",
     "devDependencies": {
@@ -15,7 +15,8 @@
     "workspaces": [
         "main/*", "extra/*", "tools/*", "apps/*", "apps/*/iot",
         "apps/*/public/*", "app", "app/iot", "app/public/*",
-        "playground/*", "playground/*/iot", "playground/*/public/*"
+        "playground/*", "playground/*/iot", "playground/*/public/*",
+        "playground/app/*", "playground/app/*/iot", "playground/app/*/public/*"
     ],
     "caf" : {
         "excludeFromPack" : {
