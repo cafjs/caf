@@ -45,4 +45,4 @@ In both cases we should be able to restart without losing the CA's state. This s
 
 Using the `cafjs` command we can also simulate devices, build container images to publish in our cloud service, i.e., https://root-launcher.cafjs.com, or reset after a hang. See {@link external:caf_dcinabox} (https://cafjs.github.io/api/caf_dcinabox) for details.
 
-Write your app in a subdirectory of `caf/playground/app`, and yarn workspaces will also manage your app dependencies.
+Write your app in a subdirectory of `caf/playground/app`, and yarn workspaces will also manage your app dependencies. Also, write your modules under `caf/playground` to include them in the workspace without publish.
