@@ -3,9 +3,9 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 pushd ${DIR}
 topdirs="../apps"
 mkOne=${DIR}/caf_dcinabox/bin/caf.js
-REGISTRY_PREFIX=${REGISTRY_PREFIX:-'registry.cafjs.com:32000'}
+REGISTRY_PREFIX=${REGISTRY_PREFIX:-'gcr.io/cafjs-k8'}
 REGISTRY_USER=${REGISTRY_USER:-'root'}
-EXTRA="caf_gadget_daemon caf_netproxy caf_registryproxy"
+EXTRA="caf_gadget_daemon caf_netproxy"
 
 for topdir in $topdirs; do
     pushd "$topdir"

@@ -5,7 +5,7 @@ Co-design permanent, active, stateful, reliable cloud proxies with your web app 
 See http://www.cafjs.com
 
 ## CAF
-[![Build Status](http://ci.cafjs.com/api/badges/cafjs/caf/status.svg)](http://ci.cafjs.com/cafjs/caf)
+[![Build Status](https://travis-ci.org/cafjs/caf.svg?branch=master)](https://travis-ci.org/cafjs/caf)
 
 This repository is managed as a monorepo using Yarn workspaces. It contains a consistent snapshot of all the other CAF sub-projects, included as git submodules.
 
