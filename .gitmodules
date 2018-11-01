@@ -145,3 +145,6 @@
 [submodule "apps/caf_bodysnatcher"]
 	path = apps/caf_bodysnatcher
 	url = ../caf_bodysnatcher.git
+[submodule "main/caf_crossapp"]
+	path = main/caf_crossapp
+	url = ../caf_crossapp.git
