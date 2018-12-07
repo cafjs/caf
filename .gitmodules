@@ -148,3 +148,6 @@
 [submodule "main/caf_crossapp"]
 	path = main/caf_crossapp
 	url = ../caf_crossapp.git
+[submodule "extra/caf_recaptcha"]
+	path = extra/caf_recaptcha
+	url = ../caf_recaptcha.git
