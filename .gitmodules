@@ -151,3 +151,9 @@
 [submodule "extra/caf_recaptcha"]
 	path = extra/caf_recaptcha
 	url = ../caf_recaptcha.git
+[submodule "extra/caf_users"]
+	path = extra/caf_users
+	url = ../caf_users.git
+[submodule "apps/caf_people"]
+	path = apps/caf_people
+	url = ../caf_people
