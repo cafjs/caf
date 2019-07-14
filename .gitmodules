@@ -157,3 +157,6 @@
 [submodule "apps/caf_people"]
 	path = apps/caf_people
 	url = ../caf_people
+[submodule "apps/caf_bodysnatcherlite"]
+	path = apps/caf_bodysnatcherlite
+	url = ../caf_bodysnatcherlite.git
