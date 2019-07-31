@@ -211,7 +211,7 @@
 
 /**
  * @global
- * @typedef {function(Error?, any?)} cbType
+ * @typedef {function(Error?, any=)} cbType
  *
  */
 

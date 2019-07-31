@@ -9,7 +9,7 @@
         "eslint": "^3.1.1",
         "jsdoc": "^3.4.2",
         "typescript": "2.8.X",
-        "@types/node": "^9.4.0",
+        "@types/node": "^12.6.8",
         "nodeunit": ">=0.9"
     },
     "workspaces": [
@@ -29,7 +29,10 @@
             "caf_react": "iot",
             "caf_registryproxy": "always",
             "caf_sms": "iot",
-            "caf_bloom": "iot"
+            "caf_bloom": "iot",
+            "caf_recaptcha" : "iot",
+            "caf_users" : "iot",
+            "caf_graphql" : "iot"
         }
     },
     "scripts": {

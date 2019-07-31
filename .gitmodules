@@ -160,3 +160,6 @@
 [submodule "apps/caf_bodysnatcherlite"]
 	path = apps/caf_bodysnatcherlite
 	url = ../caf_bodysnatcherlite.git
+[submodule "extra/caf_graphql"]
+	path = extra/caf_graphql
+	url = ../caf_graphql.git
