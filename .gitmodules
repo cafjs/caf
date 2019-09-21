@@ -163,3 +163,9 @@
 [submodule "extra/caf_graphql"]
 	path = extra/caf_graphql
 	url = ../caf_graphql.git
+[submodule "extra/caf_weather"]
+	path = extra/caf_weather
+	url = ../caf_weather.git
+[submodule "apps/caf_hellographql"]
+	path = apps/caf_hellographql
+	url = ../caf_hellographql.git

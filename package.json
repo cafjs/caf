@@ -29,6 +29,8 @@
             "caf_react": "iot",
             "caf_registryproxy": "always",
             "caf_sms": "iot",
+            "caf_platform": "iot",
+            "caf_weather": "iot",
             "caf_bloom": "iot",
             "caf_recaptcha" : "iot",
             "caf_users" : "iot",
