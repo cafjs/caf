@@ -11,7 +11,7 @@ This repository is managed as a monorepo using Yarn workspaces. It contains a co
 
 ### Getting Started
 
-Install node 10 and yarn >=1.3.2. Our development is mostly on Linux.
+Install node >=10 and yarn >=1.3.2. Our development is mostly on Linux.
 
 Clone this repository (`git clone https://github.com/cafjs/caf.git`) and update submodules:
 
