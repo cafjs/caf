@@ -169,3 +169,6 @@
 [submodule "apps/caf_hellographql"]
 	path = apps/caf_hellographql
 	url = ../caf_hellographql.git
+[submodule "tools/caf_template"]
+	path = tools/caf_template
+	url = ../caf_template.git

@@ -294,11 +294,15 @@
  * @property {number=} timeoutMsec Max time in miliseconds for a request before
  * assuming an irrecoverable error, and closing the session.
  * @property {string=} cacheKey Custom key to cache server side rendering.
+ * @property {boolean=} initUser Whether the owner in `from` is a new user that
+ * has to be registered.
  * @property {function(string)=} log Custom function to log messages.
  * @property {function(msgType, cbType)=} newToken Custom function to negotiate
  * an authentication token.
  * @property {function(msgType, cbType)=} newURL Custom function to redirect
  * the session.
+ * @property {function(string, Object, cbType)=} newUser Custom function to
+ * register a new user.
  * @property {Object=} timeAdjuster Custom object to synchronize clocks with the
  * cloud. See `TimeAdjuster.js` for details.
  * @property {string=} password  See `tokenFactoryOptionsType`.
