@@ -32,9 +32,18 @@
             "caf_platform": "iot",
             "caf_weather": "iot",
             "caf_bloom": "iot",
+            "caf_crossapp": "iot",
+            "caf_profiler": "iot",
+            "caf_pubsub" : "iot",
+            "caf_core" : "iot",
+            "caf_redis" : "iot",
+            "caf_ca" : "iot",
+            "caf_session": "iot",
+            "caf_dcinabox" : "iot",
             "caf_recaptcha" : "iot",
             "caf_users" : "iot",
-            "caf_graphql" : "iot"
+            "caf_graphql" : "iot",
+            "caf_template" : "iot"
         }
     },
     "scripts": {
