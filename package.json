@@ -8,8 +8,8 @@
     "devDependencies": {
         "eslint": "^3.1.1",
         "jsdoc": "^3.4.2",
-        "typescript": "2.8.X",
-        "@types/node": "^12.6.8",
+        "typescript": "3.7.3",
+        "@types/node": "^12.12.21",
         "nodeunit": ">=0.9"
     },
     "workspaces": [

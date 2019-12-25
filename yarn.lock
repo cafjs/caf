@@ -342,15 +342,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.1.0.tgz#225cbaac5fdb2b9ac651b02c070d8aa3c37cc812"
   integrity sha512-zwrxviZS08kRX40nqBrmERElF2vpw4IUTd5khkhBTfFH8AOaeoLVx48EC4+ZzS2/Iga7NevncqnsUSYjM4OWYA==
 
-"@types/node@^12.12.7", "@types/node@^12.6.8":
+"@types/node@^12.12.21", "@types/node@^12.6.8":
   version "12.12.22"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.22.tgz#b8d9eae3328b96910a373cf06ac8d3c5abe9c200"
   integrity sha512-r5i93jqbPWGXYXxianGATOxTelkp6ih/U0WVnvaqAvTqM+0U6J3kw6Xk6uq/dWNRkEVw/0SLcO5ORXbVNz4FMQ==
-
-"@types/node@^9.4.0":
-  version "9.6.55"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-9.6.55.tgz#7cc1358c9c18e71f6c020e410962971863232cf5"
-  integrity sha512-e/5tg8Ok0gSrN6pvHphnwTK0/CD9VPZrtZqpvvpEFAtfs+ZntusgGaWkf2lSEq1OFe2EDPeUMiMVpy4nZpJ4AQ==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1945,7 +1940,7 @@ debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
   dependencies:
     ms "^2.1.1"
 
-"debug@github:ngokevin/debug#noTimestamp":
+debug@ngokevin/debug#noTimestamp:
   version "2.2.0"
   resolved "https://codeload.github.com/ngokevin/debug/tar.gz/ef5f8e66d49ce8bc64c6f282c15f8b7164409e3a"
 
@@ -2143,7 +2138,7 @@ doctrine@^2.0.0:
   dependencies:
     esutils "^2.0.2"
 
-"document-register-element@github:dmarcos/document-register-element#8ccc532b7f3744be954574caf3072a5fd260ca90":
+document-register-element@dmarcos/document-register-element#8ccc532b7f3744be954574caf3072a5fd260ca90:
   version "0.5.4"
   resolved "https://codeload.github.com/dmarcos/document-register-element/tar.gz/8ccc532b7f3744be954574caf3072a5fd260ca90"
 
@@ -6609,7 +6604,7 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     resolve "^1.11.0"
     rollup-pluginutils "^2.8.1"
 
-"rollup-plugin-espruino-modules@github:opichals/rollup-plugin-espruino-modules":
+rollup-plugin-espruino-modules@opichals/rollup-plugin-espruino-modules:
   version "0.1.0"
   resolved "https://codeload.github.com/opichals/rollup-plugin-espruino-modules/tar.gz/3c0bce83a9f2bb2cd39c464d068189a02b055a59"
   dependencies:
@@ -7553,7 +7548,7 @@ text-table@~0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-"three-bmfont-text@github:dmarcos/three-bmfont-text#1babdf8507":
+three-bmfont-text@dmarcos/three-bmfont-text#1babdf8507:
   version "2.3.0"
   resolved "https://codeload.github.com/dmarcos/three-bmfont-text/tar.gz/1babdf8507c731a18f8af3b807292e2b9740955e"
   dependencies:
@@ -7799,10 +7794,10 @@ typedarray@^0.0.6, typedarray@~0.0.5:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@2.8.X:
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.8.4.tgz#0b1db68e6bdfb0b767fa2ab642136a35b059b199"
-  integrity sha512-IIU5cN1mR5J3z9jjdESJbnxikTrEz3lzAw/D0Tf45jHpBp55nY31UkUvmVHoffCfKHTqJs3fCLPDxknQTTFegQ==
+typescript@3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.3.tgz#b36840668a16458a7025b9eabfad11b66ab85c69"
+  integrity sha512-Mcr/Qk7hXqFBXMN7p7Lusj1ktCBydylfQM/FZCk5glCNQJrCUKPkMHdo9R0MTFWsC/4kPFvDS0fDPvukfCkFsw==
 
 typescript@^3.3.3, typescript@^3.5.0:
   version "3.7.4"
