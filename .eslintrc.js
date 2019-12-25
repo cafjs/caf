@@ -11,7 +11,14 @@ module.exports = {
     "rules": {
         // enable additional rules, mostly with auto fix...
         "strict" : ["error", "global"],
-        "indent": ["error", 4],
+        "indent": ["error", 4, {
+            "FunctionDeclaration": {"parameters": "first"},
+            "FunctionExpression": {"parameters": "first"},
+            "CallExpression": {"arguments": "first"},
+            "ArrayExpression": "first",
+            "ObjectExpression": "first",
+            "MemberExpression": 1
+        }],
         "no-multi-spaces" : ["error"],
         "linebreak-style": ["error", "unix"],
         "quotes": ["error", "single", {"avoidEscape": true}],

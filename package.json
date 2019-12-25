@@ -6,7 +6,7 @@
     "author": "Antonio Lain <antlai@cafjs.com>",
     "homepage": "http://www.cafjs.com",
     "devDependencies": {
-        "eslint": "^3.1.1",
+        "eslint": "^6.8.0",
         "jsdoc": "^3.4.2",
         "typescript": "3.7.3",
         "@types/node": "^12.12.21",
@@ -48,8 +48,8 @@
     },
     "scripts": {
         "installAll": "mkdir -p playground && yarn --ignore-optional",
-        "eslint": "./node_modules/.bin/eslint main/*/lib/*.js",
-        "eslintfix": "./node_modules/.bin/eslint --fix main/*/lib/*.js",
+        "eslint": "./node_modules/.bin/eslint -c .eslintrc.js main/*/lib/*.js",
+        "eslintfix": "./node_modules/.bin/eslint -c .eslintrc.js --fix main/*/lib/*.js",
         "test": "node ./node_modules/.bin/nodeunit main/*/test/",
         "checktype" : "./node_modules/.bin/tsc",
         "docs": "rm -fr docs/api; mkdir -p docs/api; ./node_modules/.bin/jsdoc --pedantic -c ./conf.json -d docs/api  --readme ./README.md --package ./package.json docs/*.js"
