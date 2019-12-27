@@ -1967,7 +1967,7 @@ debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
   dependencies:
     ms "^2.1.1"
 
-"debug@github:ngokevin/debug#noTimestamp":
+debug@ngokevin/debug#noTimestamp:
   version "2.2.0"
   resolved "https://codeload.github.com/ngokevin/debug/tar.gz/ef5f8e66d49ce8bc64c6f282c15f8b7164409e3a"
 
@@ -2135,11 +2135,6 @@ diff@^4.0.1:
   resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.1.tgz#0c667cb467ebbb5cea7f14f135cc2dba7780a8ff"
   integrity sha512-s2+XdvhPCOF01LRQBC8hf4vhbVmI2CGS5aZnxLJlT5FtdhPCDFq80q++zK2KlrVorVDdL5BOGZ/VfLrVtYNF+Q==
 
-diff@~1.0.3:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/diff/-/diff-1.0.8.tgz#343276308ec991b7bc82267ed55bc1411f971666"
-  integrity sha1-NDJ2MI7Jkbe8giZ+1VvBQR+XFmY=
-
 diffie-hellman@^5.0.0:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/diffie-hellman/-/diffie-hellman-5.0.3.tgz#40e8ee98f55a2149607146921c63e1ae5f3d2875"
@@ -2175,7 +2170,7 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-"document-register-element@github:dmarcos/document-register-element#8ccc532b7f3744be954574caf3072a5fd260ca90":
+document-register-element@dmarcos/document-register-element#8ccc532b7f3744be954574caf3072a5fd260ca90:
   version "0.5.4"
   resolved "https://codeload.github.com/dmarcos/document-register-element/tar.gz/8ccc532b7f3744be954574caf3072a5fd260ca90"
 
@@ -2828,7 +2823,7 @@ extsprintf@^1.2.0:
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
-eyes@>=0.1.6:
+eyes@~0.1.6:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/eyes/-/eyes-0.1.8.tgz#62cf120234c683785d902348a800ef3e0cc20bc0"
   integrity sha1-Ys8SAjTGg3hdkCNIqADvPgzCC8A=
@@ -4091,12 +4086,7 @@ js2xmlparser@^4.0.0:
   dependencies:
     xmlcreate "^2.0.0"
 
-jsbn@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.0.0.tgz#c52701bdcedbdf7084e1cfc701a7f86464ad7828"
-  integrity sha1-xScBvc7b33CE4c/HAaf4ZGSteCg=
-
-jsbn@~0.1.0:
+jsbn@^0.1.0, jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
@@ -6614,7 +6604,7 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     resolve "^1.11.0"
     rollup-pluginutils "^2.8.1"
 
-"rollup-plugin-espruino-modules@github:opichals/rollup-plugin-espruino-modules":
+rollup-plugin-espruino-modules@opichals/rollup-plugin-espruino-modules:
   version "0.1.0"
   resolved "https://codeload.github.com/opichals/rollup-plugin-espruino-modules/tar.gz/3c0bce83a9f2bb2cd39c464d068189a02b055a59"
   dependencies:
@@ -7587,7 +7577,7 @@ text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-"three-bmfont-text@github:dmarcos/three-bmfont-text#1babdf8507":
+three-bmfont-text@dmarcos/three-bmfont-text#1babdf8507:
   version "2.3.0"
   resolved "https://codeload.github.com/dmarcos/three-bmfont-text/tar.gz/1babdf8507c731a18f8af3b807292e2b9740955e"
   dependencies:
@@ -8101,13 +8091,14 @@ vm-browserify@~0.0.1:
   dependencies:
     indexof "0.0.1"
 
-vows@0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/vows/-/vows-0.7.0.tgz#dd0065f110ba0c0a6d63e844851c3208176d5867"
-  integrity sha1-3QBl8RC6DAptY+hEhRwyCBdtWGc=
+vows@0.8.3:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/vows/-/vows-0.8.3.tgz#36e353c2bca3a93902fc32eb8c5baab2e3a93f10"
+  integrity sha512-PVIxa/ovXhrw5gA3mz6M+ZF3PHlqX4tutR2p/y9NWPAaFVKcWBE8b2ktfr0opQM/qFmcOVWKjSCJVjnYOvjXhw==
   dependencies:
-    diff "~1.0.3"
-    eyes ">=0.1.6"
+    diff "^4.0.1"
+    eyes "~0.1.6"
+    glob "^7.1.2"
 
 warning@^2.0.0, warning@^2.1.0:
   version "2.1.0"
