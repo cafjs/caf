@@ -1,1 +1,1 @@
-Example applications using CAF.js.
+Example applications using `Caf.js`.

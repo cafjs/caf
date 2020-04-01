@@ -1,1 +1,1 @@
-Core CAF.js libraries
+Core Caf.js libraries

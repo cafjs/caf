@@ -1,6 +1,6 @@
 {
     "name": "caf",
-    "description": "Top level CAF.js project",
+    "description": "Top level Caf.js project",
     "private": true,
     "version": "0.3.5",
     "author": "Antonio Lain <antlai@cafjs.com>",

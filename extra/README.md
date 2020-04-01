@@ -1,4 +1,4 @@
-"Extra" CAF.js libraries.
+"Extra" `Caf.js` libraries.
 
 Some will eventually graduate to "main".
 
