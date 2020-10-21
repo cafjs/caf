@@ -172,3 +172,24 @@
 [submodule "tools/caf_template"]
 	path = tools/caf_template
 	url = ../caf_template.git
+[submodule "apps/caf_helloiotbrowser2"]
+	path = apps/caf_helloiotbrowser2
+	url = ../caf_helloiotbrowser2
+[submodule "apps/caf_hellohue"]
+	path = apps/caf_hellohue
+	url = ../caf_hellohue.git
+[submodule "apps/caf_healthypi"]
+	path = apps/caf_healthypi
+	url = ../caf_healthypi.git
+[submodule "extra/caf_smtp"]
+	path = extra/caf_smtp
+	url = ../caf_smtp.git
+[submodule "extra/caf_appinfo"]
+	path = extra/caf_appinfo
+	url = ../caf_appinfo.git
+[submodule "extra/caf_bank"]
+	path = extra/caf_bank
+	url = ../caf_bank.git
+[submodule "extra/caf_paypal"]
+	path = extra/caf_paypal
+	url = ../caf_paypal.git

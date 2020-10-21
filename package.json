@@ -2,22 +2,25 @@
     "name": "caf",
     "description": "Top level Caf.js project",
     "private": true,
-    "version": "0.3.5",
+    "version": "0.3.6",
     "author": "Antonio Lain <antlai@cafjs.com>",
     "homepage": "http://www.cafjs.com",
     "devDependencies": {
         "eslint": "^6.8.0",
         "jsdoc": "^3.4.2",
         "typescript": "3.7.3",
-        "@types/node": "^12.12.21",
+        "@types/node": "12.12.31",
         "nodeunit": ">=0.9"
     },
-    "workspaces": [
-        "main/*", "extra/*", "tools/*", "apps/*", "apps/*/iot",
-        "apps/*/public/*", "app", "app/iot", "app/public/*",
-        "playground/*", "playground/*/iot", "playground/*/public/*",
-        "playground/app/*", "playground/app/*/iot", "playground/app/*/public/*"
-    ],
+    "workspaces": {
+        "packages" : [
+         "main/*", "extra/*", "tools/*", "apps/*", "apps/*/iot",
+         "apps/*/public/*", "app", "app/iot", "app/public/*",
+         "playground/*", "playground/*/iot", "playground/*/public/*",
+         "playground/app/*", "playground/app/*/iot", "playground/app/*/public/*"
+        ],
+        "nohoist" : ["**/react-bootstrap", "**/react-dom", "**/react", "**/recharts", "**/@icons/material", "**/react-transition-group", "**/react-prop-types", "**/react-color", "**/react-overlays"]
+    },
     "caf" : {
         "excludeFromPack" : {
             "caf_amqp": "iot",
@@ -29,6 +32,9 @@
             "caf_react": "iot",
             "caf_registryproxy": "always",
             "caf_sms": "iot",
+            "caf_smtp": "iot",
+            "caf_bank": "iot",
+            "caf_paypal": "iot",
             "caf_platform": "iot",
             "caf_weather": "iot",
             "caf_bloom": "iot",
