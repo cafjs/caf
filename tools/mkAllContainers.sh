@@ -6,7 +6,7 @@ mkOne=${DIR}/caf_dcinabox/bin/caf.js
 REGISTRY_PREFIX=${REGISTRY_PREFIX:-'gcr.io/cafjs-k8'}
 REGISTRY_USER=${REGISTRY_USER:-'root'}
 EXTRA="caf_gadget_daemon caf_netproxy"
-MAX_JOBS=${MAX_JOBS:-'12'}
+MAX_JOBS=${MAX_JOBS:-'8'}
 
 # see https://stackoverflow.com/questions/1537956/bash-limit-the-number-of-concurrent-jobs
 job_limit () {

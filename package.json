@@ -2,7 +2,7 @@
     "name": "caf",
     "description": "Top level Caf.js project",
     "private": true,
-    "version": "0.3.6",
+    "version": "0.3.7",
     "author": "Antonio Lain <antlai@cafjs.com>",
     "homepage": "http://www.cafjs.com",
     "devDependencies": {
@@ -19,7 +19,7 @@
          "playground/*", "playground/*/iot", "playground/*/public/*",
          "playground/app/*", "playground/app/*/iot", "playground/app/*/public/*"
         ],
-        "nohoist" : ["**/react-bootstrap", "**/react-dom", "**/react", "**/recharts", "**/@icons/material", "**/react-transition-group", "**/react-prop-types", "**/react-color", "**/react-overlays"]
+        "nohoist" : ["**/react-bootstrap", "**/react-dom", "**/react", "**/recharts", "**/@icons/material", "**/react-transition-group", "**/react-prop-types", "**/react-color", "**/react-overlays", "**/aframe-react", "**/reactcss"]
     },
     "caf" : {
         "excludeFromPack" : {
@@ -49,7 +49,8 @@
             "caf_recaptcha" : "iot",
             "caf_users" : "iot",
             "caf_graphql" : "iot",
-            "caf_template" : "iot"
+            "caf_template" : "iot",
+            "caf_appinfo" : "iot"
         }
     },
     "scripts": {

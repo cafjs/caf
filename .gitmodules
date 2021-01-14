@@ -193,3 +193,6 @@
 [submodule "extra/caf_paypal"]
 	path = extra/caf_paypal
 	url = ../caf_paypal.git
+[submodule "apps/caf_tweetiot"]
+	path = apps/caf_tweetiot
+	url = ../caf_tweetiot
