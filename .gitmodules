@@ -88,24 +88,12 @@
 [submodule "main/caf_pubsub"]
 	path = main/caf_pubsub
 	url = ../caf_pubsub.git
-[submodule "apps/caf_hellolambda"]
-	path = apps/caf_hellolambda
-	url = ../caf_hellolambda
-[submodule "apps/caf_hellodiffie"]
-	path = apps/caf_hellodiffie
-	url = ../caf_hellodiffie.git
 [submodule "extra/caf_rpi_nap"]
 	path = extra/caf_rpi_nap
 	url = ../caf_rpi_nap.git
-[submodule "apps/caf_hellosleepy"]
-	path = apps/caf_hellosleepy
-	url = ../caf_hellosleepy
 [submodule "extra/caf_rpi_zx"]
 	path = extra/caf_rpi_zx
 	url = ../caf_rpi_zx.git
-[submodule "apps/caf_hellodynamic"]
-	path = apps/caf_hellodynamic
-	url = ../caf_hellodynamic
 [submodule "main/caf_profiler"]
 	path = main/caf_profiler
 	url = ../caf_profiler.git
@@ -130,21 +118,12 @@
 [submodule "extra/caf_bloom"]
 	path = extra/caf_bloom
 	url = ../caf_bloom.git
-[submodule "apps/caf_quota"]
-	path = apps/caf_quota
-	url = ../caf_quota
 [submodule "extra/caf_iot_http"]
 	path = extra/caf_iot_http
 	url = ../caf_iot_http.git
 [submodule "extra/caf_iot_gatt"]
 	path = extra/caf_iot_gatt
 	url = ../caf_iot_gatt.git
-[submodule "apps/caf_helloiotbrowser"]
-	path = apps/caf_helloiotbrowser
-	url = ../caf_helloiotbrowser.git
-[submodule "apps/caf_bodysnatcher"]
-	path = apps/caf_bodysnatcher
-	url = ../caf_bodysnatcher.git
 [submodule "main/caf_crossapp"]
 	path = main/caf_crossapp
 	url = ../caf_crossapp.git
@@ -196,3 +175,6 @@
 [submodule "apps/caf_tweetiot"]
 	path = apps/caf_tweetiot
 	url = ../caf_tweetiot
+[submodule "apps/caf_hellopaypal"]
+	path = apps/caf_hellopaypal
+	url = ../caf_hellopaypal

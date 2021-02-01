@@ -22,6 +22,9 @@ for topdir in $topdirs; do
     popd
 done
 
+docker tag  gcr.io/cafjs-k8/root-gadget_daemon gcr.io/cafjs-k8/root-rpidaemon
+docker push gcr.io/cafjs-k8/root-rpidaemon
+
 pushd "../extra"
 for lib in $EXTRA; do
     if [ -d "$lib" ]
