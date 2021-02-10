@@ -10,9 +10,6 @@
 [submodule "apps/caf_hellosharing"]
 	path = apps/caf_hellosharing
 	url = ../caf_hellosharing.git
-[submodule "apps/caf_helloiot"]
-	path = apps/caf_helloiot
-	url = ../caf_helloiot.git
 [submodule "apps/caf_turtles"]
 	path = apps/caf_turtles
 	url = ../caf_turtles.git
@@ -136,9 +133,6 @@
 [submodule "apps/caf_people"]
 	path = apps/caf_people
 	url = ../caf_people
-[submodule "apps/caf_bodysnatcherlite"]
-	path = apps/caf_bodysnatcherlite
-	url = ../caf_bodysnatcherlite.git
 [submodule "extra/caf_graphql"]
 	path = extra/caf_graphql
 	url = ../caf_graphql.git

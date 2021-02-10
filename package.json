@@ -2,7 +2,7 @@
     "name": "caf",
     "description": "Top level Caf.js project",
     "private": true,
-    "version": "0.4.8",
+    "version": "0.4.9",
     "author": "Antonio Lain <antlai@cafjs.com>",
     "homepage": "http://www.cafjs.com",
     "devDependencies": {
@@ -19,7 +19,7 @@
          "playground/*", "playground/*/iot", "playground/*/public/*",
          "playground/app/*", "playground/app/*/iot", "playground/app/*/public/*"
         ],
-        "nohoist" : ["**/react-bootstrap", "**/react-dom", "**/react", "**/recharts", "**/@icons/material", "**/react-transition-group", "**/react-prop-types", "**/react-color", "**/react-overlays", "**/aframe-react", "**/reactcss"]
+        "nohoist" : []
     },
     "caf" : {
         "excludeFromPack" : {
