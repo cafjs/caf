@@ -17,21 +17,21 @@ Write your app in a subdirectory of `caf/playground/app`, and yarn workspaces wi
 Install `node` >=10 and `yarn` >=1.3.2. Our development is mostly on Linux. Note that `npm` does not understand Yarn workspaces, you need to use `yarn`.
 
 Clone this repository (`git clone https://github.com/cafjs/caf.git`) and update submodules:
-
-      cd caf; git submodule update --init
-
+```
+    cd caf; git submodule update --init
+```
 Install all the dependencies (it takes about 30s in my laptop):
-
+```
     yarn run installAll
-
+```
 add to your path the `cafjs` tool path:
-
+```
     export PATH=<your_install_directory>/caf/bin:$PATH
-
+```
 and now let's build and run locally a simple app:
-
+```
     cd apps/caf_helloworld; cafjs build; cafjs run helloworld
-
+```
 The first call to `cafjs run` may take a few minutes because it downloads the core Docker images. If your connection is slow you may see timeout exceptions, which can be ignored because it continues with the download.
 
 The app server URL is http://root-launcher.vcap.me (DNS always resolves `*.vcap.me` to `127.0.0.1`, i.e., the local loop). With your browser, login with user `foo` and password `pleasechange`, and then click the `+` icon to add a `helloworld` CA. A CA (Cloud Assistant) is a cloud proxy instance for your app. Fill the form as follows:

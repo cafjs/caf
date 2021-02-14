@@ -28,9 +28,6 @@
 [submodule "extra/caf_deploy"]
 	path = extra/caf_deploy
 	url = ../caf_deploy.git
-[submodule "extra/caf_amqp"]
-	path = extra/caf_amqp
-	url = ../caf_amqp.git
 [submodule "extra/caf_gadget_daemon"]
 	path = extra/caf_gadget_daemon
 	url = ../caf_gadget_daemon.git
@@ -85,12 +82,6 @@
 [submodule "main/caf_pubsub"]
 	path = main/caf_pubsub
 	url = ../caf_pubsub.git
-[submodule "extra/caf_rpi_nap"]
-	path = extra/caf_rpi_nap
-	url = ../caf_rpi_nap.git
-[submodule "extra/caf_rpi_zx"]
-	path = extra/caf_rpi_zx
-	url = ../caf_rpi_zx.git
 [submodule "main/caf_profiler"]
 	path = main/caf_profiler
 	url = ../caf_profiler.git
@@ -112,9 +103,6 @@
 [submodule "docs/cafjs.github.io"]
 	path = docs/cafjs.github.io
 	url = ../cafjs.github.io.git
-[submodule "extra/caf_bloom"]
-	path = extra/caf_bloom
-	url = ../caf_bloom.git
 [submodule "extra/caf_iot_http"]
 	path = extra/caf_iot_http
 	url = ../caf_iot_http.git
@@ -172,3 +160,6 @@
 [submodule "apps/caf_hellopaypal"]
 	path = apps/caf_hellopaypal
 	url = ../caf_hellopaypal
+[submodule "tools/caf_build"]
+	path = tools/caf_build
+	url = ../caf_build

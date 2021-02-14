@@ -2,19 +2,20 @@
     "name": "caf",
     "description": "Top level Caf.js project",
     "private": true,
-    "version": "0.4.9",
+    "version": "0.4.10",
     "author": "Antonio Lain <antlai@cafjs.com>",
     "homepage": "http://www.cafjs.com",
     "devDependencies": {
         "eslint": "^6.8.0",
         "jsdoc": "^3.4.2",
+        "docdash": "^1.2.0",
         "typescript": "3.7.3",
         "@types/node": "12.12.31",
         "nodeunit": ">=0.9"
     },
     "workspaces": {
         "packages" : [
-         "main/*", "extra/*", "tools/*", "apps/*", "apps/*/iot",
+            "main/*", "extra/*", "tools/*", "tools/*/bin", "apps/*", "apps/*/iot",
          "apps/*/public/*", "app", "app/iot", "app/public/*",
          "playground/*", "playground/*/iot", "playground/*/public/*",
          "playground/app/*", "playground/app/*/iot", "playground/app/*/public/*"
