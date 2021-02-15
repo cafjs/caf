@@ -34,7 +34,7 @@ and now let's build and run locally a simple app:
 ```
 The first call to `cafjs run` may take a few minutes because it downloads the core Docker images. If your connection is slow you may see timeout exceptions, which can be ignored because it continues with the download.
 
-The app server URL is http://root-launcher.vcap.me (DNS always resolves `*.vcap.me` to `127.0.0.1`, i.e., the local loop). With your browser, login with user `foo` and password `pleasechange`, and then click the `+` icon to add a `helloworld` CA. A CA (Cloud Assistant) is a cloud proxy instance for your app. Fill the form as follows:
+The app server URL is http://root-launcher.vcap.me (DNS always resolves `*.vcap.me` to `127.0.0.1`, i.e., the local loop). With your browser, login with user `foo` and password `bar`, and then click the `+` icon to add a `helloworld` CA. A CA (Cloud Assistant) is a cloud proxy instance for your app. Fill the form as follows:
 
 * Application publisher: `root`
 * Application name: `helloworld`
