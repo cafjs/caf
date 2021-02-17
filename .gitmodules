@@ -163,3 +163,6 @@
 [submodule "tools/caf_build"]
 	path = tools/caf_build
 	url = ../caf_build
+[submodule "apps/caf_hellorpi"]
+	path = apps/caf_hellorpi
+	url = ../caf_hellorpi.git

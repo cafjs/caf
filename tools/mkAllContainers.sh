@@ -61,3 +61,5 @@ wait
 popd #extra
 
 popd
+
+docker tag  gcr.io/cafjs-k8/root-gadget_daemon gcr.io/cafjs-k8/root-rpidaemon
