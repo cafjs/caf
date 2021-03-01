@@ -133,9 +133,6 @@
 [submodule "tools/caf_template"]
 	path = tools/caf_template
 	url = ../caf_template.git
-[submodule "apps/caf_helloiotbrowser2"]
-	path = apps/caf_helloiotbrowser2
-	url = ../caf_helloiotbrowser2
 [submodule "apps/caf_hellohue"]
 	path = apps/caf_hellohue
 	url = ../caf_hellohue.git
@@ -166,3 +163,6 @@
 [submodule "apps/caf_hellorpi"]
 	path = apps/caf_hellorpi
 	url = ../caf_hellorpi.git
+[submodule "apps/caf_hellopuckjs"]
+	path = apps/caf_hellopuckjs
+	url = ../caf_hellopuckjs.git

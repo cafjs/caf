@@ -2,7 +2,7 @@
     "name": "caf",
     "description": "Top level Caf.js project",
     "private": true,
-    "version": "0.4.10",
+    "version": "0.4.11",
     "author": "Antonio Lain <antlai@cafjs.com>",
     "homepage": "http://www.cafjs.com",
     "devDependencies": {
@@ -10,7 +10,7 @@
         "jsdoc": "^3.4.2",
         "docdash": "^1.2.0",
         "typescript": "3.7.3",
-        "@types/node": "12.12.31",
+        "@types/node": "14.14.31",
         "nodeunit": ">=0.9"
     },
     "workspaces": {
