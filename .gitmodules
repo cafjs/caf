@@ -94,9 +94,6 @@
 [submodule "extra/caf_forward"]
 	path = extra/caf_forward
 	url = ../caf_forward.git
-[submodule "apps/caf_hellopresent"]
-	path = apps/caf_hellopresent
-	url = ../caf_hellopresent
 [submodule "docs/caf_presentations"]
 	path = docs/caf_presentations
 	url = ../caf_presentations.git
@@ -166,3 +163,6 @@
 [submodule "apps/caf_hellopuckjs"]
 	path = apps/caf_hellopuckjs
 	url = ../caf_hellopuckjs.git
+[submodule "apps/caf_slides"]
+	path = apps/caf_slides
+	url = ../caf_slides
