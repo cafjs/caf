@@ -1,0 +1,30 @@
+name: Build Status
+on: push
+
+jobs:
+  container-job:
+    runs-on: ubuntu-latest
+    container: node:14
+    services:
+      redis:
+        image: redis:6
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Update submodules
+        run: git submodule update --init
+      - name: Install dependencies
+        run: yarn run installAll
+      - name: Test
+        run: yarn test
+        env:
+          REDIS_PORT_6379_TCP_ADDR: redis
+      - name: Eslint
+        run: yarn run eslint
+      - name: Checktype
+        run: yarn run checktype

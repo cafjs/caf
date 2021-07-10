@@ -6,7 +6,7 @@ See http://www.cafjs.com
 
 ## Introduction
 
-[![Build Status](https://travis-ci.org/cafjs/caf.svg?branch=master)](https://travis-ci.org/cafjs/caf)
+[![Build Status](https://github.com/cafjs/caf/actions/workflows/push.yml/badge.svg)](https://github.com/cafjs/caf/actions/workflows/push.yml)
 
 This repository is managed as a monorepo using Yarn workspaces. It contains a consistent snapshot of all the other `Caf.js` sub-projects, included as git submodules.
 
