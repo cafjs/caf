@@ -14,6 +14,8 @@ jobs:
           --health-timeout 5s
           --health-retries 5
     steps:
+      - name: Update git
+        run: echo "deb http://deb.debian.org/debian stretch-backports main" >> /etc/apt/sources.list; apt-get update; apt -t stretch-backports install -y git
       - name: Check out repository code
         uses: actions/checkout@v2
         with:
