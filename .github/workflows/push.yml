@@ -16,8 +16,8 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
-      - name: Update submodules
-        run: git submodule update --init
+        with:
+          submodules: true
       - name: Install dependencies
         run: yarn run installAll
       - name: Test
