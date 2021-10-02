@@ -166,3 +166,18 @@
 [submodule "apps/caf_slides"]
 	path = apps/caf_slides
 	url = ../caf_slides
+[submodule "apps/caf_whiteboard"]
+	path = apps/caf_whiteboard
+	url = ../caf_whiteboard.git
+[submodule "extra/caf_iot_obs"]
+	path = extra/caf_iot_obs
+	url = ../caf_iot_obs
+[submodule "apps/caf_helloobs"]
+	path = apps/caf_helloobs
+	url = ../caf_helloobs
+[submodule "extra/caf_daily"]
+	path = extra/caf_daily
+	url = ../caf_daily.git
+[submodule "apps/caf_hellowab"]
+	path = apps/caf_hellowab
+	url = ../caf_hellowab.git

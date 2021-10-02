@@ -140,6 +140,12 @@
  * @typedef {Array.<jsonType>}  notificationType
  */
 
+/**
+ * @global
+ * @typedef {function(string, notificationType):notificationType} customizerType
+ */
+
+
 // security
 /**
  * @global
