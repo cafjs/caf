@@ -252,6 +252,7 @@
  * @property {string} caLocalName Local name of the target CA.
  * @property {string} appPublisher The publisher of this app.
  * @property {string} appLocalName The local name of the app.
+ * @property {string=} session The name of the session.
  * @property {string=} token  Authentication token for the `from` principal.
  * @property {string=} cacheKey A key to cache server side rendering.
  * @property {boolean=} keepToken A flag to keep the token in the URL.
