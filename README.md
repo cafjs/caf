@@ -66,12 +66,12 @@ When devices or apps want to interact, they can use their CAs to guarantee secur
 * or provide a twitter-like service for devices with a hundred lines of Javascript.
 
 
-But this is just the tip of the iceberg of what CAs can do. Learn more in our [website](https:www.cafjslabs.com)
+But this is just the tip of the iceberg of what CAs can do. Learn more in our [website](https://www.cafjslabs.com)
 
 
 ## About this repo
 
-This repository is managed as a monorepo using yarn workspaces. It contains a consistent snapshot of all the other `Caf.js` sub-projects, included as git submodules. To create a `Caf.js` release, we test them together.
+This repository is managed as a monorepo using yarn workspaces. It contains a consistent snapshot of all the other `Caf.js` sub-projects, included as git submodules. To create a `Caf.js` release, we test them all together.
 
 It is recommended that you create your app within this monorepo, in a subdirectory of `caf/playground/app`, and then yarn workspaces will also manage your app dependencies.
 
@@ -102,7 +102,7 @@ and now let's build and run locally a simple app:
     cd apps/caf_helloworld; cafjs build; cafjs run helloworld
 ```
 
-The app server URL is http://root-launcher.vcap.me (DNS always resolves `*.vcap.me` to `127.0.0.1`, i.e., the local loop). With your browser, login with user `foo` and password `bar`, and then click the `+` icon to add a `helloworld` CA. A CA (Cloud Assistant) is a cloud proxy instance for your app. Fill the form as follows:
+The app server URL is http://root-launcher.vcap.me (DNS always resolves `*.vcap.me` to `127.0.0.1`, i.e., the local loop). With your browser, login with user `foo` and password `bar`, and then click the `+` icon to add a `helloworld` CA. Fill the form as follows:
 
 * Application publisher: `root`
 * Application name: `helloworld`
