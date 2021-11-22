@@ -20,15 +20,15 @@ A Cloud Assistant (CA) has
 * some private and reliable state,
 * a public URL that exposes authenticated methods,
 * a queue that serializes requests, eliminating races,
-* and the ability to run autonomously for years with minimal cost (85 cents per year, Gold plan@Caf.js Cloud).
+* and the ability to run autonomously for years with minimal cost (85 cents per year, Gold plan [Caf.js Cloud](https://www.cafjslabs.com/hosting)).
 
-CAs are implemented with the Actor model.
+CAs are implemented with the Actor Model.
 
 A billion CAs can be hosted with a few thousand servers. Every IoT device or Web App instance could have one. Why do you want one?
 
 #### Permanent Presence
 
-Devices and app instances are sometimes off-line, or hard to reach behind a firewall, or suffer from long and unpredictable network latencies.
+Devices and app instances are sometimes off-line, or hard to reach behind a firewall, or suffer from long or unpredictable network latencies.
 
 This makes it very difficult to share them safely across the Internet, or integrate them in VR or AR using an avatar.
 
@@ -58,9 +58,9 @@ You can view a CA as a reliable state machine, which always checkpoints before e
 
 CAs interact with each other safely using the trusted bus. High level communication primitives ensure that these interactions scale to millions. Fast datacenter networks provide predictable low latency.
 
-When devices or apps want to interact, they can use their CAs to guarantee secure, scalable, and fast communication. This gives them superpowers.
+When devices or apps want to interact, they can use their CAs to guarantee secure, scalable, and fast communication. This gives them superpowers:
 
-* Coordinate with global time actions on millions of devices across the World,
+* Coordinate actions with global time on millions of devices across the World,
 * or bootstrap trust between strangers,
 * or control thousands of Web App Backgrounds (WABs) in your next Zoom-like meeting,
 * or provide a twitter-like service for devices with a hundred lines of Javascript.
@@ -79,7 +79,7 @@ Ditto with your modules. Just create them under `caf/playground` and they are pa
 
 ## Install
 
-Install `node` >=12 and `yarn` >=1.3.2. Our development is mostly on Linux. Note that `npm` does not understand Yarn workspaces, you need to use `yarn`.
+Install `node` LTS >=12 and `yarn` >=1.3.2. Our development is mostly on Linux. Note that `npm` does not understand Yarn workspaces, you need to use `yarn`.
 
 Clone this repository (`git clone https://github.com/cafjs/caf.git`) and update submodules:
 ```
