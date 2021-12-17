@@ -181,3 +181,9 @@
 [submodule "apps/caf_hellowab"]
 	path = apps/caf_hellowab
 	url = ../caf_hellowab.git
+[submodule "main/caf_fsm]"]
+	path = main/caf_fsm
+	url = ../caf_fsm.git
+[submodule "apps/caf_hellofsm]"]
+	path = apps/caf_hellofsm
+	url = ../caf_hellofsm.git
