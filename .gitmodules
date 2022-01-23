@@ -187,3 +187,9 @@
 [submodule "apps/caf_hellofsm]"]
 	path = apps/caf_hellofsm
 	url = ../caf_hellofsm.git
+[submodule "extra/caf_webhook"]
+	path = extra/caf_webhook
+	url = ../caf_webhook.git
+[submodule "apps/caf_hellowebhook"]
+	path = apps/caf_hellowebhook
+	url = ../caf_hellowebhook.git
