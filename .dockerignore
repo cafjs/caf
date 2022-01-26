@@ -1,0 +1,11 @@
+**/node_modules
+apps
+playground
+docs
+typescript
+assets
+*~
+extra/caf_rpi
+extra/caf_gadget_daemon
+extra/caf_netproxy
+extra/caf_registryproxy
