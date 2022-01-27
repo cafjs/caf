@@ -1,8 +1,9 @@
 **/node_modules
+**/.git
 apps
 playground
-docs
-typescript
+**/docs
+**/typescript
 assets
 *~
 extra/caf_rpi
