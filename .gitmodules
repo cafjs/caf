@@ -193,3 +193,6 @@
 [submodule "apps/caf_hellowebhook"]
 	path = apps/caf_hellowebhook
 	url = ../caf_hellowebhook.git
+[submodule "main/caf_delay"]
+	path = main/caf_delay
+	url = ../caf_delay.git
