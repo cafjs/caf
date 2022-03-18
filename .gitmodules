@@ -37,9 +37,6 @@
 [submodule "extra/caf_netproxy"]
 	path = extra/caf_netproxy
 	url = ../caf_netproxy.git
-[submodule "extra/caf_registryproxy"]
-	path = extra/caf_registryproxy
-	url = ../caf_registryproxy.git
 [submodule "main/caf_components"]
 	path = main/caf_components
 	url = ../caf_components.git
@@ -94,9 +91,6 @@
 [submodule "extra/caf_forward"]
 	path = extra/caf_forward
 	url = ../caf_forward.git
-[submodule "docs/caf_presentations"]
-	path = docs/caf_presentations
-	url = ../caf_presentations.git
 [submodule "docs/cafjs.github.io"]
 	path = docs/cafjs.github.io
 	url = ../cafjs.github.io.git
