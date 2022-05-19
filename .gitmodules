@@ -190,3 +190,6 @@
 [submodule "main/caf_delay"]
 	path = main/caf_delay
 	url = ../caf_delay.git
+[submodule "extra/caf_iot_lego"]
+	path = extra/caf_iot_lego
+	url = ../caf_iot_lego.git

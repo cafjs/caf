@@ -357,7 +357,7 @@
  * @typedef {Object} scheduledTaskType
  * @property {String} id A unique identifier for this task.
  * @property {Number} when A date in msec since 1970 UTC when the task executes.
- * @property {function(string)} handlerF The handler to trigger the task.
+ * @property {function(string):void} handlerF The handler to trigger the task.
  */
 
 /**
