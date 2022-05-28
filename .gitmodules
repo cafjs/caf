@@ -193,3 +193,6 @@
 [submodule "extra/caf_iot_lego"]
 	path = extra/caf_iot_lego
 	url = ../caf_iot_lego.git
+[submodule "apps/caf_hellolego"]
+	path = apps/caf_hellolego
+	url = ../caf_hellolego.git
