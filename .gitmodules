@@ -196,3 +196,6 @@
 [submodule "apps/caf_hellolego"]
 	path = apps/caf_hellolego
 	url = ../caf_hellolego.git
+[submodule "apps/caf_hellomario"]
+	path = apps/caf_hellomario
+	url = ../caf_hellomario.git
