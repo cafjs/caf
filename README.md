@@ -102,7 +102,7 @@ and now let's build and run locally a simple app:
     cd apps/caf_helloworld; cafjs build; cafjs run helloworld
 ```
 
-The app server URL is http://root-launcher.vcap.me (DNS always resolves `*.vcap.me` to `127.0.0.1`, i.e., the local loop). With your browser, login with user `foo` and password `bar`, and then click the `+` icon to add a `helloworld` CA. Fill the form as follows:
+The app server URL is http://root-launcher.localtest.me (DNS always resolves `*.localtest.me` to `127.0.0.1`, i.e., the local loop). With your browser, login with user `foo` and password `bar`, and then click the `+` icon to add a `helloworld` CA. Fill the form as follows:
 
 * Application publisher: `root`
 * Application name: `helloworld`
