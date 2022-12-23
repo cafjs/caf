@@ -2,7 +2,7 @@
     "name": "caf",
     "description": "Top level Caf.js project",
     "private": true,
-    "version": "0.4.24",
+    "version": "0.4.25",
     "author": "Antonio Lain <antlai@cafjs.com>",
     "homepage": "http://www.cafjs.com",
     "devDependencies": {
@@ -16,9 +16,10 @@
     "workspaces": {
         "packages" : [
             "main/*", "extra/*", "tools/*", "tools/*/bin", "apps/*", "apps/*/iot",
-         "apps/*/public/*", "app", "app/iot", "app/public/*",
-         "playground/*", "playground/*/iot", "playground/*/public/*",
-         "playground/app/*", "playground/app/*/iot", "playground/app/*/public/*"
+            "apps/*/public/*", "app", "app/iot", "app/public/*",
+            "app2", "app2/iot", "app2/public/*",
+            "playground/*", "playground/*/iot", "playground/*/public/*",
+            "playground/app/*", "playground/app/*/iot", "playground/app/*/public/*"
         ],
         "nohoist" : []
     },
@@ -54,7 +55,8 @@
             "caf_appinfo" : "iot",
             "caf_daily" : "iot",
             "caf_fsm" : "iot",
-            "caf_webhook" : "iot"
+            "caf_webhook" : "iot",
+            "caf_kafka" : "iot"
         }
     },
     "scripts": {

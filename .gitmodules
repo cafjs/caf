@@ -199,3 +199,12 @@
 [submodule "apps/caf_hellomario"]
 	path = apps/caf_hellomario
 	url = ../caf_hellomario.git
+[submodule "extra/caf_kafka"]
+	path = extra/caf_kafka
+	url = ../caf_kafka.git
+[submodule "apps/caf_hellokafka"]
+	path = apps/caf_hellokafka
+	url = ../caf_hellokafka.git
+[submodule "apps/caf_hellokafkahelper"]
+	path = apps/caf_hellokafkahelper
+	url = ../caf_hellokafkahelper.git
